@@ -97,7 +97,7 @@ function mostrar_Detalle(empresa) {
         '<div id="detalle" class="detalle color_' + empresa + '"><div class="closeButton" onclick="ocultar_Detalle();">&times ' + TraducirClave("cerrar") + '<img class="logo_' + empresa +
         '_detalle" src = "./resources/images/logos/' + logo + '" /></div><div class="año"><br>' +
         años +
-        '</div><br><div class="texto_detalle">' + texto + '</div></div>';
+        '</div><div class="texto_detalle">' + texto + '</div></div>';
 
     divModal = divNodo;
 
