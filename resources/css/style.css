@@ -1,0 +1,575 @@
+﻿:root {
+	--body-bg-color: #00bcd4;
+	--seccion-contacto-bg-color: burlywood;
+	--seccion-estudios-bg-color: indianred;
+	--seccion-experiencia-bg-color: palegreen;
+	--seccion-conocimientos-bg-color: palevioletred;
+	--footer-bg-color: black;
+	--menu-font-family: 'Roboto', sans-serif;
+	--text-font-family: 'Montserrat', sans-serif;
+	--special-font-family: 'Simonetta', cursive;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: var(--menu-font-family);
+}
+
+h1 {
+	font-family: var(--special-font-family);
+}
+
+body {
+	background-color: var(--body-bg-color);
+}
+
+.header_container {
+	height: 50px;
+}
+
+.header {
+	position: fixed;
+	right: 0;
+	display: flex;
+	height: 50px;
+	font-size: 1.5em;
+	font-weight: 600;
+	animation: animacion_header linear 1.5s;
+	z-index: 10;
+}
+
+.idioma {
+	display: flex;
+	margin-right: 10px;
+	align-self: center;
+}
+
+.img_idioma {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	align-self: center;
+}
+
+.img_idioma:hover {
+	cursor: pointer;
+}
+
+.seccion_contacto {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 2em;
+	height: 100%;
+	background-color: var(--seccion-contacto-bg-color);
+	padding-top: 50px;
+}
+
+.contacto {
+	display: flex;
+	color: black;
+}
+
+.contacto a {
+	color: black;
+	align-self: center;
+}
+
+.contacto a:link {
+	text-decoration: none;
+}
+
+.contacto .phone {
+	height: 50px;
+	width: 50px;
+	fill: black;
+}
+
+.contacto .mail:hover {
+	cursor: pointer;
+	fill: grey;
+}
+
+.contacto .mail {
+	height: 50px;
+	width: 50px;
+	fill: black;
+}
+
+.contacto div {
+	align-self: center;
+	position: relative;
+	font-size: 0.5em;
+}
+
+.contacto .linkedin {
+	height: 50px;
+	width: 50px;
+	fill: black;
+}
+
+.contacto .linkedin:hover {
+	cursor: pointer;
+	fill: grey;
+}
+
+.extra {
+	font-family: var(--text-font-family);
+	background-color: var(--seccion-contacto-bg-color);
+	height: 310px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	font-family: var(--menu-font-family);
+	color: white;
+	background-color: var(--footer-bg-color);
+	width: 100%;
+	height: 2em;
+	opacity: 0.8;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer a {
+	color: white;
+	font-family: var(--text-font-family);
+	align-self: center;
+}
+
+.footer a:link {
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: grey;
+}
+
+.contacto a:hover {
+	color: grey;
+}
+
+.saludo {
+	position: relative;
+	top: 5%;
+	left: 50%;
+	width: fit-content;
+	color: white;
+	font-family: var(--menu-font-family);
+	font-size: 150px;
+	font-weight: 900;
+	transform: translate(-50%, -50%);
+}
+
+.instrucciones {
+	opacity: 0;
+	position: relative;
+	top: -6%;
+	color: white;
+	font-family: var(--menu-font-family);
+	font-size: 18px;
+	font-weight: 400;
+	animation: animacion_inicial_instrucciones linear 0.5s forwards;
+	animation-delay: 0.5s;
+}
+
+.instrucciones b {
+	font-size: 30px;
+}
+
+#icono_chrome {
+	width: 30px;
+	height: 30px;
+}
+
+.breve_descripcion {
+	opacity: 0;
+	position: relative;
+	top: 3%;
+	left: 10%;
+	color: white;
+	font-family: var(--text-font-family);
+	font-size: 20px;
+	font-weight: 100;
+	text-align: left;
+	width: calc(70% - 150px);
+}
+
+#acerca {
+	height: 1000px;
+	text-align: center;
+	font-size: 4em;
+	font-family: var(--text-font-family);
+}
+
+#acerca_ext {
+	position: absolute;
+	top: 950px;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: var(--body-bg-color);
+	border-radius: 100%;
+}
+
+.tarjeta {
+	position: relative;
+	top: -200px;
+	left: -400px;
+	background-color: antiquewhite;
+	box-shadow: 3px 3px 8px 3px grey;
+	width: 330px;
+	height: 200px;
+	border-radius: 10px;
+}
+
+.seccion_contacto .tarjeta {
+	transform: rotateZ(27deg);
+}
+
+#nombre {
+	font-size: 1em;
+	color: crimson;
+	font-family: var(--special-font-family);
+	font-weight: 600;
+	font-size: x-large;
+}
+
+.foto {
+	position: relative;
+	top: 30%;
+	left: 50%;
+	opacity: 0;
+	transform: translate(-50%, -50%);
+	background-color: antiquewhite;
+	box-shadow: 3px 3px 8px 3px dimgrey;
+	width: 240px;
+	height: 310px;
+	animation: animacion_inicial_instrucciones linear 1s forwards;
+	animation-delay: 0.5s;
+}
+
+.img_foto {
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+}
+
+.img_clip {
+	height: 114px;
+	width: 44px;
+	position: relative;
+	top: -335px;
+	left: -90px;
+	visibility: hidden;
+}
+
+.seccion_estudios {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 2em;
+	height: 500px;
+	background-color: white;
+	padding-top: 50px;
+}
+
+.seccion_experiencia {
+	text-align: center;
+	font-size: 2em;
+	height: 500px;
+	background-color: var(--seccion-experiencia-bg-color);
+	padding-top: 50px;
+}
+
+.seccion_conocimientos {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 2em;
+	height: 500px;
+	background-color: var(--seccion-conocimientos-bg-color);
+	padding-top: 50px;
+}
+
+.cuadernos {
+    position: relative;
+}
+
+.hoja_cuaderno {
+	height: 300px;
+	width: 300px;
+}
+
+/*TEST*/
+.hoja_cuaderno_big {
+    height: 1200px;
+    width: 1200px;
+    position: relative;
+    top: -100px;
+    left: 0px;
+}
+/*TEST*/
+
+.accenture {
+	position: relative;
+	top: 0px;
+	left: -200px;
+}
+
+.logo_accenture {
+	position: relative;
+	top: -170px;
+	left: -480px;
+	width: 119px;
+	height: 30px;
+}
+
+.travelsoft {
+	position: relative;
+	top: 0px;
+	left: -185px;
+}
+
+.logo_travelsoft {
+	position: relative;
+	top: -165px;
+	left: -460px;
+	width: 119px;
+	height: 30px;
+}
+
+.amdocs {
+	position: relative;
+	top: 0px;
+	left: -190px;
+}
+
+.logo_amdocs {
+	position: relative;
+	top: -165px;
+	left: -465px;
+	width: 119px;
+	height: 30px;
+}
+
+.geoban {
+	position: relative;
+	top: -5px;
+	left: -195px;
+}
+
+.logo_geoban {
+	position: relative;
+	top: -165px;
+	left: -480px;
+	width: 119px;
+	height: 31px;
+}
+
+.vias {
+	position: relative;
+	top: 0px;
+	left: -210px;
+}
+
+.logo_vias {
+	position: relative;
+	top: -150px;
+	left: -475px;
+	width: 91px;
+	height: 46px;
+	border-radius: 5px;
+}
+
+.dragados {
+	position: relative;
+	top: -15px;
+	left: -195px;
+}
+
+.logo_dragados {
+	position: relative;
+	top: -175px;
+	left: -460px;
+	width: 91px;
+	height: 46px;
+	border-radius: 5px;
+}
+
+.hoja_cuaderno:hover {
+	cursor: pointer;
+}
+
+.logo_accenture:hover {
+	cursor: pointer;
+}
+
+.logo_travelsoft:hover {
+	cursor: pointer;
+}
+
+.logo_amdocs:hover {
+	cursor: pointer;
+}
+
+.logo_geoban:hover {
+	cursor: pointer;
+}
+
+.logo_vias:hover {
+	cursor: pointer;
+}
+
+.logo_dragados:hover {
+	cursor: pointer;
+}
+
+#contenedor_detalle {
+	display: flex;
+	justify-content: space-around;
+}
+
+.detalle {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    width: 800px;
+    height: auto;
+    box-sizing: content-box;
+    border-radius: 8px;
+    font-family: var(--text-font-family);
+    font-size: small;
+    /*background-color: #ecf0f1;*/
+    padding: 5px;
+    min-height: 50px;
+    box-shadow: 2px 2px 5px #181818;
+    word-wrap: break-word;
+    margin-left: 410px;
+    margin-top: -10px;
+    transform: translateX(-100%);
+    z-index: 10;
+    border: 2px solid black;
+    animation: animacion_detalle linear .7s;
+}
+
+.closeButton {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	position: relative;
+	/*background-color: #ecf0f1;*/
+	text-align: right;
+	border-bottom: 1px solid black;
+	padding-bottom: 1px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	z-index: 10;
+}
+
+.closeButton:hover {
+	cursor: pointer;
+}
+
+.logo_accenture_detalle {
+	width: 79px;
+	height: 20px;
+	align-self: center;
+	position: absolute;
+	top: -5px;
+}
+
+.logo_travelsoft_detalle {
+	width: 79px;
+	height: 20px;
+	align-self: center;
+	position: absolute;
+	top: -5px;
+}
+
+.logo_amdocs_detalle {
+	width: 79px;
+	height: 20px;
+	align-self: center;
+	position: absolute;
+	top: -5px;
+}
+
+.logo_geoban_detalle {
+	width: 77px;
+	height: 20px;
+	align-self: center;
+	position: absolute;
+	top: -5px;
+}
+
+.logo_vias_detalle {
+	width: 40px;
+	height: 20px;
+	border-radius: 3px;
+	align-self: center;
+	position: absolute;
+	top: -5px;
+}
+
+.logo_dragados_detalle {
+	width: 40px;
+	height: 20px;
+	border-radius: 3px;
+	align-self: center;
+	position: absolute;
+	top: -5px;
+}
+
+.color_accenture {
+    background-color: #fadeb1;
+}
+
+.color_travelsoft {
+    background-color: #b1d5fa;
+}
+
+.color_amdocs {
+    background-color: #c9b1fa;
+}
+
+.color_geoban {
+    background-color: #fab1b1;
+}
+
+.color_vias {
+    background-color: #a3a39e;
+}
+
+.color_dragados {
+    background-color: #e0e0de;
+}
+
+
+.año {
+	text-align: center;
+	margin-left: 20px;
+	font-family: var(--text-font-family);
+	font-size: medium;
+	font-weight: 700;
+}
+
+.texto_detalle {
+	text-align: left;
+	margin-left: 50px;
+}
+
+.invisible {
+    display: none;
+}
+
+.cuaderno_experiencia {
+    height: 0;
+}

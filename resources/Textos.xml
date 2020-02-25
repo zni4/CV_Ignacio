@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Literales>
+  <Literal Id="idioma">
+    <ES>Idioma</ES>
+    <EN>Language</EN>
+  </Literal>
+  <Literal Id="instrucciones">
+    <ES> DESPLÁZATE HACIA ABAJO PARA SABER MÁS DE MÍ.</ES>
+    <EN> SCROLL DOWN TO KNOW MORE ABOUT ME.</EN>
+  </Literal>
+  <Literal Id="estudios">
+    <ES>Estudios</ES>
+    <EN>Studies</EN>
+  </Literal>
+  <Literal Id="experiencia">
+    <ES>Experiencia</ES>
+    <EN>Experience</EN>
+  </Literal>
+  <Literal Id="conocimientos">
+    <ES>Conocimientos</ES>
+    <EN>Knowledge</EN>
+  </Literal>
+  <Literal Id="contacto">
+    <ES>Contáctame</ES>
+    <EN>Contact me</EN>
+  </Literal>
+  <Literal Id="acerca">
+    <ES>Acerca de mí</ES>
+    <EN>About me</EN>
+  </Literal>
+  <Literal Id="saludo">
+    <ES>Bienvenido</ES>
+    <EN>Wellcome</EN>
+  </Literal>
+  <Literal Id="breve_descripcion">
+    <ES>
+      Soy '@bold'Ignacio Nogueira'bold@', ingeniero con más de 20 años de experiencia en el diseño, desarrollo e implantación de soluciones informáticas.
+     '@newline''@newline'La mayoría de los conocimientos técnicos que tengo los he adquirido por mí mismo a lo largo de estos años.
+     '@newline''@newline'Me considero una persona responsable y muy comprometida con su trabajo.
+    </ES>
+    <EN>
+      I am '@bold'Ignacio Nogueira'bold@', an engineer with more than 20 years of experience in the design, development and implementation of computer solutions.
+     '@newline''@newline'Most of my technical knowledge have been self acquired through all this years.
+     '@newline''@newline'I consider myself a very responsible person and very commited to work.
+    </EN>
+  </Literal>
+  <Literal Id="titulo_contacto">
+    <ES>Sigamos en contacto...</ES>
+    <EN>Let's get in touch...</EN>
+  </Literal>
+  <Literal Id="cerrar">
+    <ES>CERRAR</ES>
+    <EN>CLOSE</EN>
+  </Literal>
+  <Literal Id="enero">
+    <ES>Enero</ES>
+    <EN>January</EN>
+  </Literal>
+  <Literal Id="febrero">
+    <ES>Febrero</ES>
+    <EN>February</EN>
+  </Literal>
+  <Literal Id="marzo">
+    <ES>Marzo</ES>
+    <EN>March</EN>
+  </Literal>
+  <Literal Id="abril">
+    <ES>Abril</ES>
+    <EN>April</EN>
+  </Literal>
+  <Literal Id="mayo">
+    <ES>Mayo</ES>
+    <EN>May</EN>
+  </Literal>
+  <Literal Id="junio">
+    <ES>Junio</ES>
+    <EN>June</EN>
+  </Literal>
+  <Literal Id="julio">
+    <ES>Julio</ES>
+    <EN>July</EN>
+  </Literal>
+  <Literal Id="agosto">
+    <ES>Agosto</ES>
+    <EN>Agoust</EN>
+  </Literal>
+  <Literal Id="septiembre">
+    <ES>Septiembre</ES>
+    <EN>September</EN>
+  </Literal>
+  <Literal Id="octubre">
+    <ES>Octubre</ES>
+    <EN>October</EN>
+  </Literal>
+  <Literal Id="noviembre">
+    <ES>Noviembre</ES>
+    <EN>November</EN>
+  </Literal>
+  <Literal Id="diciembre">
+    <ES>Diciembre</ES>
+    <EN>December</EN>
+  </Literal>
+  <Literal Id="accenture">
+    <ES>
+      '@bold'DISEÑO DE PROCEDIEMIENTOS COMERCIALES PARA UN CENTRO DE ATENCION TELEFONICA (Agbar) (DIRECTOR DE PROYECTO)'bold@'
+      '@newline''@newline'Responsable del proyecto de implantación del centro de atención telefónica de la División de Aguas y Saneamiento (DAS) del grupo Agbar.
+      '@newline''@newline'En estrecha colaboración con la dirección de proyecto establecida por la DAS, dirección de los 2 equipos de trabajo establecidos para el desarrollo del proyecto (equipo de diseño de los procesos a realizar en el centro de atención telefónica, y equipo de nuevos desarrollos a realizar para adaptar el sistema comercial a los nuevos procedimientos definidos).
+      '@newline''@newline'Gestión del proyecto, seguimiento del estado de los trabajos realizados y del estado económico del mismo.
+      '@newline''@newline''@bold'CONVERSIÓN DE DATOS (SEVILLANA) (JEFE DE PROYECTO)'bold@'
+      '@newline''@newline'Responsable de la conversión de datos, del antiguo sistema comercial de SEVILLANA para implantar el sistema comercial adoptado por todo el grupo ENDESA.
+      '@newline''@newline'Dirección del equipo de trabajo (de 8 a 15 personas) reportando directamente al responsable del proyecto de implantación.
+      '@newline''@newline'Coordinación del equipo de conversión con los distintos equipos de trabajo que realizan nuevos desarrollos.
+      '@newline''@newline''@bold'REINGENIERÍA DE PROCESOS DE FACTURACIÓN (SEVILLANA / ENDESA) (JEFE DE PROYECTO)'bold@'
+      '@newline''@newline'Integración en el sistema de los nuevos procesos de facturación que es necesario incluir para la facturación de aquellos clientes que se acojan al nuevo mercado regulado (grandes consumidores).
+      '@newline''@newline'Supervisión directa del equipo de desarrollo encargado de realizar dichas modificaciones, generación de informes de progreso para la dirección del proyecto.
+      '@newline''@newline'Responsable del diseño de los nuevos procesos de facturación a incluir en el sistema comercial para su posterior implantación en todo el grupo ENDESA.
+      '@newline''@newline'Reingeniería de los distintos procesos de facturación de cada una de las empresas del grupo ENDESA para lograr homogeneizar los mismos en una serie de procedimientos comunes a todas las empresas del grupo.
+      '@newline''@newline'Reingeniería de los procesos de facturación del sistema comercial desarrollado para ERZ, UNELCO y GESA de modo que pueda emplearse para compañías con un mayor número de clientes (SEVILLANA y FECSA/ENHER).
+      '@newline''@newline''@bold'DESARROLLO SISTEMA DE FACTURACIÓN (ERZ, UNELCO y GESA) (ANALISTA)'bold@'
+      '@newline''@newline'Implantación del sistema de gestión comercial en UNELCO. Responsable de las pruebas de datos convertidos previas a la implantación en producción del sistema.
+      '@newline''@newline'Análisis detallado de las incidencias de datos para su corrección.
+      '@newline''@newline'Mantenimiento del sistema comercial de las empresas eléctricas ERZ, UNELCO y GESA.
+      '@newline''@newline'Análisis y resolución de las incidencias detectadas durante los procesos diarios de facturación.
+    </ES>
+    <EN> </EN>
+  </Literal>
+  <Literal Id="travelsoft">
+    <ES>
+      '@bold'TOMA DE REQUERIMIENTOS PARA EL DESARROLLO DE PORTALES DE SERVICIOS TURISTICOS  (JEFE DE PROYECTO)'bold@'
+      '@newline''@newline'Responsable de la toma de requerimientos, diseño funcional y seguimiento del estado de los proyectos en curso, relativos al desarrollo de portales para la reserva online de servicios turísticos.
+    </ES>
+    <EN> </EN>
+  </Literal>
+  <Literal Id="amdocs">
+    <ES>
+      '@bold'GENERACIÓN DE INFORMES PARA EL AREA USUARIA (T-mobile)'bold@'
+      '@newline''@newline'Trabajando en Londres para T-mobile. Responsable de la generación de informes para el área usuaria.
+      '@newline''@newline''@bold'REINGENIERÍA DE PROCESOS DE FACTURACIÓN (Telefónica) (JEFE DE PROYECTO)'bold@'
+      '@newline''@newline'Definición del nuevo proceso para la facturación de servicios mayoristas. Integración del mismo dentro del sistema de facturación existente.
+      '@newline''@newline'Identificación de las mejoras a realizar en los procesos de identificación de inconsistencias entre los sistemas de provisión y gestión de clientes y el sistema de facturación de Telefónica.
+      '@newline''@newline'Análisis de las modificaciones a realizar para la eliminación de dichas inconsistencias y la consecuente mejora de los procesos de facturación.
+      '@newline''@newline''@bold'IMPLANTACIÓN Y MANTENIMIENTO DEL SISTEMA DE FACTURACIÓN (Telefónica) (JEFE DE PROYECTO)'bold@'
+      '@newline''@newline'Responsable de la implantación y mantenimiento de uno de los módulos del sistema de facturación de telefonía fija de Telefónica.
+      '@newline''@newline'Análisis de viabilidad, y en su caso, adaptación de los nuevos procedimientos de facturación solicitados por la dirección de Telefónica al nuevo sistema de facturación.
+      '@newline''@newline'Gestión del equipo de trabajo.
+    </ES>
+    <EN> </EN>
+  </Literal>
+  <Literal Id="geoban">
+    <ES>
+      '@bold'RESPONSABLE DE SEGURIDAD PARA LOS PROCESOS DE BACKOFFICE DE LOS BANCOS SANTANDER, BANESTO Y OPENBANK EN ESPAÑA, PORTUGAL, POLONIA Y MEXICO (Geoban)'bold@'
+      '@newline''@newline'Definición e implantación de un nuevo procedimiento de Seguridad acorde a las directivas de Seguridad de los bancos Santander, Banesto y Openbank.
+      '@newline''@newline'Implantación del nuevo procedimiento en España, Portugal, Polonia y México.
+      '@newline''@newline'Generación de informes para la dirección y gestión de un equipo de 5 personas.
+    </ES>
+    <EN> </EN>
+  </Literal>
+  <Literal Id="vias">
+    <ES>
+      '@bold'JEFE DE PROYECTO'bold@'
+      '@newline''@newline'Diseño e implantación de un nuevo sistema de planificación económica de las obras.
+      '@newline''@newline'Implantación de la ley de protección de datos (LOPD).
+      '@newline''@newline'Desarrollo e implantación de una nueva herramienta para el seguimiento de la formación interna de los empleados de la empresa.
+      '@newline''@newline'Desarrollo e implantación de un nuevo sistema para el seguimiento y control de los proyectos de I+D+i de la empresa.
+      '@newline''@newline'Realización de auditorías anuales para verificar el cumplimiento del procedimiento de compras establecido en la empresa.
+      '@newline''@newline'Responsable del proyecto de modernización de la página web de la empresa. Negociación con proveedores.
+    </ES>
+    <EN> </EN>
+  </Literal>
+  <Literal Id="dragados">
+    <ES>
+      '@bold'JEFE DE PROYECTO'bold@'
+      '@newline''@newline'Mapa de sistemas (Parque de Maquinaria), creación del mapa de sistemas para la gestión del parque de maquinaria de Dragados y Vias.
+      '@newline''@newline'Responsable de BI (Business Intelligence), elección de la herramienta adecuada a las necesidades de la empresa y desarrollo e implantación de los cuadros de mando necesarios.
+      '@newline''@newline'Diseño e implantación del módulo de aperturas en el sistema de licitaciones de obra de la empresa.
+      '@newline''@newline'Integración, dentro del sistema de licitaciones de la empresa, de los sistemas de licitaciones de otras empresas del grupo.
+    </ES>
+    <EN> </EN>
+  </Literal>
+</Literales>
