@@ -62,13 +62,14 @@ body {
 }
 
 .seccion_contacto {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	font-size: 2em;
-	height: 100%;
-	background-color: var(--seccion-contacto-bg-color);
-	padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2em;
+    height: 700px;
+    background-color: var(--seccion-contacto-bg-color);
+    padding-top: 50px;
+    visibility: hidden;
 }
 
 .contacto {
@@ -117,12 +118,6 @@ body {
 .contacto .linkedin:hover {
 	cursor: pointer;
 	fill: grey;
-}
-
-.extra {
-	font-family: var(--text-font-family);
-	background-color: var(--seccion-contacto-bg-color);
-	height: 310px;
 }
 
 .footer {
@@ -272,31 +267,34 @@ body {
 }
 
 .seccion_estudios {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	font-size: 2em;
-	height: 500px;
-	background-color: white;
-	padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2em;
+    height: 500px;
+    background-color: var(--seccion-estudios-bg-color);
+    padding-top: 50px;
+    visibility: hidden;
 }
 
 .seccion_experiencia {
-	text-align: center;
-	font-size: 2em;
-	height: 500px;
-	background-color: var(--seccion-experiencia-bg-color);
-	padding-top: 50px;
+    text-align: center;
+    font-size: 2em;
+    height: 500px;
+    background-color: var(--seccion-experiencia-bg-color);
+    padding-top: 50px;
+    visibility: hidden;
 }
 
 .seccion_conocimientos {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	font-size: 2em;
-	height: 500px;
-	background-color: var(--seccion-conocimientos-bg-color);
-	padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2em;
+    height: 500px;
+    background-color: var(--seccion-conocimientos-bg-color);
+    padding-top: 50px;
+    visibility: hidden;
 }
 
 .cuadernos {
@@ -307,16 +305,6 @@ body {
 	height: 300px;
 	width: 300px;
 }
-
-/*TEST*/
-.hoja_cuaderno_big {
-    height: 1200px;
-    width: 1200px;
-    position: relative;
-    top: -100px;
-    left: 0px;
-}
-/*TEST*/
 
 .accenture {
 	position: relative;

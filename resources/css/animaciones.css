@@ -208,14 +208,67 @@
 }
 
 @keyframes animacion_seccion_estudios {
-	0% {
-		transform: translateY(-100%);
-	}
+    0% {
+        transform: translateY(-300%);
+        visibility: visible;
+    }
 
-	100% {
-		top: 0;
-		background-color: var(--seccion-estudios-bg-color);
-	}
+    100% {
+        top: 0;
+        background-color: var(--seccion-estudios-bg-color);
+        visibility: visible;
+    }
+}
+
+.animate_seccion_experiencia {
+    animation: animacion_seccion_experiencia linear 1s forwards;
+}
+
+@keyframes animacion_seccion_experiencia {
+    0% {
+        transform: translateY(-300%);
+        visibility: visible;
+    }
+
+    100% {
+        top: 0;
+        background-color: var(--seccion-experiencia-bg-color);
+        visibility: visible;
+    }
+}
+
+.animate_seccion_conocimientos {
+    animation: animacion_seccion_conocimientos linear 1s forwards;
+}
+
+@keyframes animacion_seccion_conocimientos {
+    0% {
+        transform: translateY(-300%);
+        visibility: visible;
+    }
+
+    100% {
+        top: 0;
+        background-color: var(--seccion-conocimientos-bg-color);
+        visibility: visible;
+    }
+}
+
+.animate_seccion_contacto {
+    animation: animacion_seccion_contacto linear 1s forwards;
+}
+
+@keyframes animacion_seccion_contacto {
+    0% {
+        transform: translateY(-300%);
+        visibility: visible;
+    }
+
+    100% {
+        top: 0;
+        background-color: var(--seccion-contacto-bg-color);
+        visibility: visible;
+    }
 }
 
 .animate_accenture {
