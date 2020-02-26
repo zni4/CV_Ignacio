@@ -102,79 +102,79 @@
   </Literal>
   <Literal Id="accenture">
     <ES>
-      '@bold'DISEÑO DE PROCEDIEMIENTOS COMERCIALES PARA UN CENTRO DE ATENCION TELEFONICA (Agbar) (DIRECTOR DE PROYECTO)'bold@'
+      '@bold'Diciembre 2001 - Julio 2002; DISEÑO DE PROCEDIMIENTOS COMERCIALES PARA UN CENTRO DE ATENCION TELEFONICA (Agbar) (DIRECTOR DE PROYECTO)'bold@'
       '@newline''@newline'Responsable del proyecto de implantación del centro de atención telefónica de la División de Aguas y Saneamiento (DAS) del grupo Agbar.
       '@newline''@newline'En estrecha colaboración con la dirección de proyecto establecida por la DAS, dirección de los 2 equipos de trabajo establecidos para el desarrollo del proyecto (equipo de diseño de los procesos a realizar en el centro de atención telefónica, y equipo de nuevos desarrollos a realizar para adaptar el sistema comercial a los nuevos procedimientos definidos).
       '@newline''@newline'Gestión del proyecto, seguimiento del estado de los trabajos realizados y del estado económico del mismo.
-      '@newline''@newline''@bold'CONVERSIÓN DE DATOS (SEVILLANA) (JEFE DE PROYECTO)'bold@'
+      '@newline''@newline''@bold'Septiembre 1999 - Julio 2001; CONVERSIÓN DE DATOS (SEVILLANA, GRUPO ENDESA) (JEFE DE PROYECTO)'bold@'
       '@newline''@newline'Responsable de la conversión de datos, del antiguo sistema comercial de SEVILLANA para implantar el sistema comercial adoptado por todo el grupo ENDESA.
       '@newline''@newline'Dirección del equipo de trabajo (de 8 a 15 personas) reportando directamente al responsable del proyecto de implantación.
       '@newline''@newline'Coordinación del equipo de conversión con los distintos equipos de trabajo que realizan nuevos desarrollos.
-      '@newline''@newline''@bold'REINGENIERÍA DE PROCESOS DE FACTURACIÓN (SEVILLANA / ENDESA) (JEFE DE PROYECTO)'bold@'
+      '@newline''@newline''@bold'Febrero 1998 - Septiembre 1999; REINGENIERÍA DE PROCESOS DE FACTURACIÓN (SEVILLANA, GRUPO ENDESA) (JEFE DE PROYECTO)'bold@'
       '@newline''@newline'Integración en el sistema de los nuevos procesos de facturación que es necesario incluir para la facturación de aquellos clientes que se acojan al nuevo mercado regulado (grandes consumidores).
       '@newline''@newline'Supervisión directa del equipo de desarrollo encargado de realizar dichas modificaciones, generación de informes de progreso para la dirección del proyecto.
       '@newline''@newline'Responsable del diseño de los nuevos procesos de facturación a incluir en el sistema comercial para su posterior implantación en todo el grupo ENDESA.
       '@newline''@newline'Reingeniería de los distintos procesos de facturación de cada una de las empresas del grupo ENDESA para lograr homogeneizar los mismos en una serie de procedimientos comunes a todas las empresas del grupo.
       '@newline''@newline'Reingeniería de los procesos de facturación del sistema comercial desarrollado para ERZ, UNELCO y GESA de modo que pueda emplearse para compañías con un mayor número de clientes (SEVILLANA y FECSA/ENHER).
-      '@newline''@newline''@bold'DESARROLLO SISTEMA DE FACTURACIÓN (ERZ, UNELCO y GESA) (ANALISTA)'bold@'
+      '@newline''@newline''@bold'Julio 1996 - Febrero 1998; DESARROLLO SISTEMA DE FACTURACIÓN (ERZ, UNELCO y GESA, GRUPO ENDESA) (ANALISTA)'bold@'
       '@newline''@newline'Implantación del sistema de gestión comercial en UNELCO. Responsable de las pruebas de datos convertidos previas a la implantación en producción del sistema.
       '@newline''@newline'Análisis detallado de las incidencias de datos para su corrección.
-      '@newline''@newline'Mantenimiento del sistema comercial de las empresas eléctricas ERZ, UNELCO y GESA.
+      '@newline''@newline'Mantenimiento del sistema comercial de las empresas eléctricas ERZ, UNELCO y GESA del grupo ENDESA.
       '@newline''@newline'Análisis y resolución de las incidencias detectadas durante los procesos diarios de facturación.
     </ES>
     <EN>
-      '@bold'DESIGN OF COMMERCIAL PROCEDURES FOR A TELEPHONE SERVICE CENTER (Agbar) (PROJECT DIRECTOR)'bold@'
+      '@bold'Dicember 2001 - July 2002; DESIGN OF COMMERCIAL PROCEDURES FOR A CALL CENTER (Agbar) (PROJECT DIRECTOR)'bold@'
       '@newline''@newline'Responsible for the implementation project of the call center of the Water and Sanitation Division (DAS) of the Agbar group.
       '@newline''@newline'In close collaboration with the project management established by the DAS, management of the 2 work teams established for the development of the project (design team of the processes to be carried out in the call center, and team of new developments to be carried out to adapt the commercial system to the new procedures defined).
       '@newline''@newline'Project management, follow up of the work carried out and its economic status.
-      '@newline''@newline''@bold'CONVERSION OF DATA (SEVILLANA) (PROJECT MANAGER)'bold@'
+      '@newline''@newline''@bold'September 1999 - July 2001; DATA CONVERSION (SEVILLANA, ENDESA GROUP) (PROJECT MANAGER)'bold@'
       '@newline''@newline'Responsible for data conversion, from the old SEVILLANA commercial system to the new commercial system adopted by the entire ENDESA group.
       '@newline''@newline'Direction of the work team (from 8 to 15 people) reporting directly to the person in charge of the implementation project.
       '@newline''@newline'Coordination of the conversion team with the different work teams that carry out new developments.
-      '@newline''@newline''@bold'BILLING PROCESS REENGINEERING (SEVILLANA / ENDESA) (PROJECT MANAGER)'bold@'
+      '@newline''@newline''@bold'February 1998 - September 1999; BILLING PROCESS REENGINEERING (SEVILLANA, ENDESA GROUP) (PROJECT MANAGER)'bold@'
       '@newline''@newline'Integration into the system of the new billing processes that need to be included for the billing of those clients that take advantage of the new regulated market (large consumers).
-      '@newline''@newline'S direct supervision of the development team responsible for making such modifications, generating progress reports for the project management.
+      '@newline''@newline'Direct supervision of the development team responsible for making such modifications, generating progress reports for the project management.
       '@newline''@newline'Responsible for the design of the new billing processes to be included in the commercial system for later implementation throughout the ENDESA group.
       '@newline''@newline'Reengineering of the different billing processes of each of the companies in the ENDESA group in order to homogenize them in a series of procedures common to all the companies in the group.
       '@newline''@newline'Reengineering of the billing processes of the commercial system developed for ERZ, UNELCO and GESA so that it can be used for companies with a greater number of customers (SEVILLANA and FECSA / ENHER).
-      '@newline''@newline''@bold'BILLING SYSTEM DEVELOPMENT (ERZ, UNELCO and GESA) (ANALYST)'bold@'
+      '@newline''@newline''@bold'July 1996 - February 1998; BILLING SYSTEM DEVELOPMENT (ERZ, UNELCO and GESA, ENDESA GROUP) (ANALYST)'bold@'
       '@newline''@newline'Implementation of the commercial management system at UNELCO. Responsible for the tests of converted data prior to the implementation in production of the system.
       '@newline''@newline'A Detailed analysis of data incidents for correction.
-      '@newline''@newline'Maintenance of the commercial system of the electric companies ERZ, UNELCO and GESA.
+      '@newline''@newline'Maintenance of the commercial system of the electric companies ERZ, UNELCO and GESA belonging to the ENDESA group.
       '@newline''@newline'Analysis and resolution of incidents detected during daily billing processes.
     </EN>
   </Literal>
   <Literal Id="travelsoft">
     <ES>
-      '@bold'TOMA DE REQUERIMIENTOS PARA EL DESARROLLO DE PORTALES DE SERVICIOS TURISTICOS (JEFE DE PROYECTO)'bold@'
+      '@bold'Diciembre 2002 - Mayo 2003; TOMA DE REQUERIMIENTOS PARA EL DESARROLLO DE PORTALES DE SERVICIOS TURISTICOS (JEFE DE PROYECTO)'bold@'
       '@newline''@newline'Responsable de la toma de requerimientos, diseño funcional y seguimiento del estado de los proyectos en curso, relativos al desarrollo de portales para la reserva online de servicios turísticos.
     </ES>
     <EN>
-      '@bold'TAKING REQUIREMENTS FOR THE DEVELOPMENT OF TOURIST SERVICES PORTALS (PROJECT MANAGER)'bold@'
+      '@bold'December 2002 - May 2003; TAKING REQUIREMENTS FOR THE DEVELOPMENT OF TOURIST SERVICES PORTALS (PROJECT MANAGER)'bold@'
       '@newline''@newline'In charge of taking requirements, functional design and mamangement of ongoing projects, related to the development of portals for online booking of tourist services.
     </EN>
   </Literal>
   <Literal Id="amdocs">
     <ES>
-      '@bold'GENERACIÓN DE INFORMES PARA EL AREA USUARIA (T-mobile)'bold@'
+      '@bold'Agosto 2008 - Noviembre 2008; GENERACIÓN DE INFORMES PARA EL AREA USUARIA (T-mobile)'bold@'
       '@newline''@newline'Trabajando en Londres para T-mobile. Responsable de la generación de informes para el área usuaria.
-      '@newline''@newline''@bold'REINGENIERÍA DE PROCESOS DE FACTURACIÓN (Telefónica) (JEFE DE PROYECTO)'bold@'
+      '@newline''@newline''@bold'Julio 2007 - Agosto 2008; REINGENIERÍA DE PROCESOS DE FACTURACIÓN (Telefónica) (JEFE DE PROYECTO)'bold@'
       '@newline''@newline'Definición del nuevo proceso para la facturación de servicios mayoristas. Integración del mismo dentro del sistema de facturación existente.
       '@newline''@newline'Identificación de las mejoras a realizar en los procesos de identificación de inconsistencias entre los sistemas de provisión y gestión de clientes y el sistema de facturación de Telefónica.
       '@newline''@newline'Análisis de las modificaciones a realizar para la eliminación de dichas inconsistencias y la consecuente mejora de los procesos de facturación.
-      '@newline''@newline''@bold'IMPLANTACIÓN Y MANTENIMIENTO DEL SISTEMA DE FACTURACIÓN (Telefónica) (JEFE DE PROYECTO)'bold@'
+      '@newline''@newline''@bold'Diciembre 2003 - Enero 2007; IMPLANTACIÓN Y MANTENIMIENTO DEL SISTEMA DE FACTURACIÓN (Telefónica) (JEFE DE PROYECTO)'bold@'
       '@newline''@newline'Responsable de la implantación y mantenimiento de uno de los módulos del sistema de facturación de telefonía fija de Telefónica.
       '@newline''@newline'Análisis de viabilidad, y en su caso, adaptación de los nuevos procedimientos de facturación solicitados por la dirección de Telefónica al nuevo sistema de facturación.
       '@newline''@newline'Gestión del equipo de trabajo.
     </ES>
     <EN>
-      '@bold'GENERATION OF REPORTS FOR THE USER AREA (T-mobile)'bold@'
+      '@bold'Agoust 2008 - November 2008; GENERATION OF REPORTS FOR THE USER AREA (T-mobile)'bold@'
       '@newline''@newline'Working in London for T-mobile. Responsible for generating reports for the user area.
-      '@newline''@newline''@bold'BILLING PROCESS REENGINEERING (Telefónica) (PROJECT MANAGER)'bold@'
+      '@newline''@newline''@bold'July 2007 - Agoust 2008; BILLING PROCESS REENGINEERING (Telefónica) (PROJECT MANAGER)'bold@'
       '@newline''@newline'Definition of the new process for the billing of wholesale services. Integration of it within the existing billing system.
       '@newline''@newline'Identification of the improvements to be made in the processes of identifying inconsistencies between the provisioning and customer management systems and the billing system of Telefónica.
       '@newline''@newline'Analysis of the modifications to be made for the elimination of these inconsistencies and the consequent improvement of the billing processes.
-      '@newline''@newline''@bold'IMPLANTATION AND MAINTENANCE OF THE BILLING SYSTEM (Telefónica) (PROJECT MANAGER)'bold@'
+      '@newline''@newline''@bold'December 2003 - January 2007; IMPLANTATION AND MAINTENANCE OF THE BILLING SYSTEM (Telefónica) (PROJECT MANAGER)'bold@'
       '@newline''@newline'Responsible for the implementation and maintenance of one of the modules of the fixed telephone billing system of Telefónica.
       '@newline''@newline'A Feasibility analysis, and where appropriate, adaptation of the new billing procedures requested by Telefónica's address to the new billing system.
       '@newline''@newline'Team management.
@@ -182,13 +182,13 @@
   </Literal>
   <Literal Id="geoban">
     <ES>
-      '@bold'RESPONSABLE DE SEGURIDAD PARA LOS PROCESOS DE BACKOFFICE DE LOS BANCOS SANTANDER, BANESTO Y OPENBANK EN ESPAÑA, PORTUGAL, POLONIA Y MEXICO (Geoban)'bold@'
+      '@bold'Enero 2009 - Junio 2009; RESPONSABLE DE SEGURIDAD PARA LOS PROCESOS DE BACKOFFICE DE LOS BANCOS SANTANDER, BANESTO Y OPENBANK EN ESPAÑA, PORTUGAL, POLONIA Y MEXICO (Geoban)'bold@'
       '@newline''@newline'Definición e implantación de un nuevo procedimiento de seguridad acorde a las directivas de seguridad de los bancos Santander, Banesto y Openbank.
       '@newline''@newline'Implantación del nuevo procedimiento de seguridad en España, Portugal, Polonia y México.
       '@newline''@newline'Generación de informes para la dirección y gestión de un equipo de 5 personas.
     </ES>
     <EN>
-      '@bold'RESPONSIBLE FOR SECURITY FOR THE BACKOFFICE PROCESSES OF THE SANTANDER, BANESTO AND OPENBANK BANKS IN SPAIN, PORTUGAL, POLAND AND MEXICO (Geoban)'bold@'
+      '@bold'January 2009 - June 2009; RESPONSIBLE FOR SECURITY FOR THE BACKOFFICE PROCESSES OF THE SANTANDER, BANESTO AND OPENBANK BANKS IN SPAIN, PORTUGAL, POLAND AND MEXICO (Geoban)'bold@'
       '@newline''@newline'Definition and implementation of a new security procedure according to the security directives of banks Santander, Banesto and Openbank.
       '@newline''@newline'Implementation of the new security procedure in Spain, Portugal, Poland and Mexico.
       '@newline''@newline'Reports generation for the management. Management of a team of 5 people.
@@ -196,7 +196,7 @@
   </Literal>
   <Literal Id="vias">
     <ES>
-      '@bold'JEFE DE PROYECTO'bold@'
+      '@bold'Septiembre 2016 - Octubre 2017; JEFE DE PROYECTO'bold@'
       '@newline''@newline'Diseño e implantación de un nuevo sistema de planificación económica de las obras.
       '@newline''@newline'Implantación de la ley de protección de datos (LOPD).
       '@newline''@newline'Desarrollo e implantación de una nueva herramienta para el seguimiento de la formación interna de los empleados de la empresa.
@@ -205,9 +205,9 @@
       '@newline''@newline'Responsable del proyecto de modernización de la página web de la empresa. Negociación con proveedores.
     </ES>
     <EN>
-      '@bold'PROJECT MANAGER'bold@'
+      '@bold'September 2016 - October 2017; PROJECT MANAGER'bold@'
       '@newline''@newline'Design and implementation of a new economic planning system for the works.
-      '@newline''@newline'Implementation of the data protection law (LOPD).
+      '@newline''@newline'Implementation of the data protection law (GDPR).
       '@newline''@newline'Development and implementation of a new tool for monitoring the internal training of company employees.
       '@newline''@newline'Development and implementation of a new system for monitoring and control of the company's R+D+i projects.
       '@newline''@newline'Realization of annual audits to verify compliance with the purchasing procedure established in the company.
@@ -216,14 +216,14 @@
   </Literal>
   <Literal Id="dragados">
     <ES>
-      '@bold'JEFE DE PROYECTO'bold@'
+      '@bold'Octubre 2016 - Actualidad; JEFE DE PROYECTO'bold@'
       '@newline''@newline'Mapa de sistemas (Parque de Maquinaria), creación del mapa de sistemas para la gestión del parque de maquinaria de Dragados y Vias.
       '@newline''@newline'Responsable de BI (Business Intelligence), elección de la herramienta adecuada a las necesidades de la empresa y desarrollo e implantación de los cuadros de mando necesarios.
       '@newline''@newline'Diseño e implantación del módulo de aperturas en el sistema de licitaciones de obra de la empresa.
       '@newline''@newline'Integración, dentro del sistema de licitaciones de la empresa, de los sistemas de licitaciones de otras empresas del grupo.
     </ES>
     <EN>
-      '@bold'PROJECT MANAGER'bold@'
+      '@bold'October 2016 - Now; PROJECT MANAGER'bold@'
       '@newline''@newline'System Map (Machinery Park), creation of the systems map for the management of the Dragados and Vias machinery park.
       '@newline''@newline' Responsible for BI (Business Intelligence), choosing the right tool for the company's needs and developing and implementing the necessary dashboards.
       '@newline''@newline'Design and implementation of the openings module in the company's bidding system.
