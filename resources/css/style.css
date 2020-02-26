@@ -225,10 +225,6 @@ body {
 	border-radius: 10px;
 }
 
-.seccion_contacto .tarjeta {
-	transform: rotateZ(27deg);
-}
-
 #nombre {
 	font-size: 1em;
 	color: crimson;
@@ -331,6 +327,14 @@ body {
 .hoja_cuaderno {
 	height: 300px;
 	width: 300px;
+}
+
+svg:hover {
+    fill-opacity: .9;
+}
+
+.logo_accenture:hover, .logo_travelsoft:hover, .logo_amdocs:hover, .logo_geoban:hover, .logo_vias:hover, .logo_dragados:hover {
+    opacity: .5;
 }
 
 .accenture {
