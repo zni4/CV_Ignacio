@@ -23,10 +23,11 @@ html {
 
 h1 {
 	font-family: var(--special-font-family);
+    text-shadow: 5px 5px 10px grey;
 }
 
 body {
-	background-color: var(--body-bg-color);
+    background: linear-gradient(to bottom, var(--seccion-contacto-bg-color) 0%, var(--body-bg-color) 20%);
 }
 
 .header_container {
@@ -67,9 +68,8 @@ body {
     text-align: center;
     font-size: 2em;
     height: 700px;
-    background-color: var(--seccion-contacto-bg-color);
+    background: linear-gradient(to bottom, var(--seccion-contacto-bg-color) 0%, var(--body-bg-color) 100%);
     padding-top: 50px;
-    /*visibility: hidden;*/
 }
 
 .contacto {
@@ -164,15 +164,16 @@ body {
 }
 
 .instrucciones {
-	opacity: 0;
-	position: relative;
-	top: -6%;
-	color: white;
-	font-family: var(--menu-font-family);
-	font-size: 18px;
-	font-weight: 400;
-	animation: animacion_inicial_instrucciones linear 0.5s forwards;
-	animation-delay: 0.5s;
+    opacity: 0;
+    position: relative;
+    top: -6%;
+    color: white;
+    font-family: var(--menu-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    animation: animacion_inicial_instrucciones linear 0.5s forwards;
+    animation-delay: 0.5s;
+    text-shadow: none;
 }
 
 .instrucciones b {
@@ -185,16 +186,17 @@ body {
 }
 
 .breve_descripcion {
-	opacity: 0;
-	position: relative;
-	top: 3%;
-	left: 10%;
-	color: white;
-	font-family: var(--text-font-family);
-	font-size: 20px;
-	font-weight: 100;
-	text-align: left;
-	width: calc(70% - 150px);
+    opacity: 0;
+    position: relative;
+    top: 3%;
+    left: 10%;
+    color: white;
+    font-family: var(--text-font-family);
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    width: calc(70% - 150px);
+    text-shadow: none;
 }
 
 #acerca {
@@ -202,6 +204,7 @@ body {
 	text-align: center;
 	font-size: 4em;
 	font-family: var(--text-font-family);
+    text-shadow: 5px 5px 10px grey;
 }
 
 #acerca_ext {
@@ -268,9 +271,8 @@ body {
     text-align: center;
     font-size: 2em;
     height: 500px;
-    background-color: var(--seccion-estudios-bg-color);
+    background: linear-gradient(to bottom, var(--seccion-contacto-bg-color) 0%, var(--seccion-estudios-bg-color) 75%);
     padding-top: 50px;
-    /*visibility: hidden;*/
 }
 
 #estudios_ext {
@@ -286,9 +288,8 @@ body {
     text-align: center;
     font-size: 2em;
     height: 700px;
-    background-color: var(--seccion-experiencia-bg-color);
+    background: linear-gradient(to bottom, var(--seccion-contacto-bg-color) 0%, var(--seccion-experiencia-bg-color) 75%);
     padding-top: 50px;
-    /*visibility: hidden;*/
 }
 
 #experiencia_ext {
@@ -306,9 +307,8 @@ body {
     text-align: center;
     font-size: 2em;
     height: 500px;
-    background-color: var(--seccion-conocimientos-bg-color);
+    background: linear-gradient(to bottom, var(--seccion-contacto-bg-color) 0%, var(--seccion-conocimientos-bg-color) 75%);
     padding-top: 50px;
-    /*visibility: hidden;*/
 }
 
 #conocimientos_ext {
@@ -467,7 +467,6 @@ svg:hover {
     border-radius: 8px;
     font-family: var(--text-font-family);
     font-size: small;
-    /*background-color: #ecf0f1;*/
     padding: 5px;
     min-height: 50px;
     box-shadow: 2px 2px 5px #181818;
@@ -503,7 +502,6 @@ svg:hover {
     justify-content: space-between;
     flex-direction: column;
     position: relative;
-    /*background-color: #ecf0f1;*/
     text-align: right;
     border-bottom: 1px solid black;
     padding-bottom: 1px;
