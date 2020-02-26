@@ -67,7 +67,7 @@ body {
     flex-direction: column;
     text-align: center;
     font-size: 2em;
-    height: 700px;
+    height: 600px;
     background: linear-gradient(to bottom, var(--seccion-contacto-bg-color) 0%, var(--body-bg-color) 100%);
     padding-top: 50px;
 }
@@ -287,7 +287,7 @@ body {
 .seccion_experiencia {
     text-align: center;
     font-size: 2em;
-    height: 700px;
+    height: 600px;
     background: linear-gradient(to bottom, var(--seccion-contacto-bg-color) 0%, var(--seccion-experiencia-bg-color) 75%);
     padding-top: 50px;
 }
