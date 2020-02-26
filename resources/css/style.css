@@ -23,11 +23,16 @@ html {
 
 h1 {
 	font-family: var(--special-font-family);
-    text-shadow: 5px 5px 10px grey;
+	text-shadow: 5px 5px 10px grey;
+	margin-top: 1vw;
 }
 
 body {
-    background: linear-gradient(to bottom, var(--seccion-contacto-bg-color) 0%, var(--body-bg-color) 20%);
+	background: linear-gradient(
+		to bottom,
+		var(--seccion-contacto-bg-color) 0%,
+		var(--body-bg-color) 20%
+	);
 }
 
 .header_container {
@@ -63,13 +68,17 @@ body {
 }
 
 .seccion_contacto {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 2em;
-    height: 600px;
-    background: linear-gradient(to bottom, var(--seccion-contacto-bg-color) 0%, var(--body-bg-color) 100%);
-    padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 2em;
+	height: 600px;
+	background: linear-gradient(
+		to bottom,
+		var(--seccion-contacto-bg-color) 0%,
+		var(--body-bg-color) 100%
+	);
+	padding-top: 50px;
 }
 
 .contacto {
@@ -164,16 +173,16 @@ body {
 }
 
 .instrucciones {
-    opacity: 0;
-    position: relative;
-    top: -6%;
-    color: white;
-    font-family: var(--menu-font-family);
-    font-size: 18px;
-    font-weight: 400;
-    animation: animacion_inicial_instrucciones linear 0.5s forwards;
-    animation-delay: 0.5s;
-    text-shadow: none;
+	opacity: 0;
+	position: relative;
+	top: -6%;
+	color: white;
+	font-family: var(--menu-font-family);
+	font-size: 18px;
+	font-weight: 400;
+	animation: animacion_inicial_instrucciones linear 0.5s forwards;
+	animation-delay: 0.5s;
+	text-shadow: none;
 }
 
 .instrucciones b {
@@ -186,17 +195,17 @@ body {
 }
 
 .breve_descripcion {
-    opacity: 0;
-    position: relative;
-    top: 3%;
-    left: 10%;
-    color: white;
-    font-family: var(--text-font-family);
-    font-size: 20px;
-    font-weight: 100;
-    text-align: left;
-    width: calc(70% - 150px);
-    text-shadow: none;
+	opacity: 0;
+	position: relative;
+	top: 3%;
+	left: 10%;
+	color: white;
+	font-family: var(--text-font-family);
+	font-size: 20px;
+	font-weight: 100;
+	text-align: left;
+	width: calc(70% - 150px);
+	text-shadow: none;
 }
 
 #acerca {
@@ -204,7 +213,7 @@ body {
 	text-align: center;
 	font-size: 4em;
 	font-family: var(--text-font-family);
-    text-shadow: 5px 5px 10px grey;
+	text-shadow: 5px 5px 10px grey;
 }
 
 #acerca_ext {
@@ -266,62 +275,74 @@ body {
 }
 
 .seccion_estudios {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 2em;
-    height: 500px;
-    background: linear-gradient(to bottom, var(--seccion-contacto-bg-color) 0%, var(--seccion-estudios-bg-color) 75%);
-    padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 2em;
+	height: 500px;
+	background: linear-gradient(
+		to bottom,
+		var(--seccion-contacto-bg-color) 0%,
+		var(--seccion-estudios-bg-color) 75%
+	);
+	padding-top: 50px;
 }
 
 #estudios_ext {
-    height: 7vw;
-    width: 100%;
-    background-color: var(--seccion-estudios-bg-color);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    margin-bottom: -10vw;
-    transform: translateY(-100%);
+	height: 7vw;
+	width: 100%;
+	background-color: var(--seccion-estudios-bg-color);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	margin-bottom: -10vw;
+	transform: translateY(-100%);
 }
 
 .seccion_experiencia {
-    text-align: center;
-    font-size: 2em;
-    height: 600px;
-    background: linear-gradient(to bottom, var(--seccion-contacto-bg-color) 0%, var(--seccion-experiencia-bg-color) 75%);
-    padding-top: 50px;
+	text-align: center;
+	font-size: 2em;
+	height: 600px;
+	background: linear-gradient(
+		to bottom,
+		var(--seccion-contacto-bg-color) 0%,
+		var(--seccion-experiencia-bg-color) 75%
+	);
+	padding-top: 50px;
 }
 
 #experiencia_ext {
-    height: 7vw;
-    width: 100%;
-    background-color: var(--seccion-experiencia-bg-color);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    margin-bottom: -10vw;
-    transform: translateY(-100%);
+	height: 7vw;
+	width: 100%;
+	background-color: var(--seccion-experiencia-bg-color);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	margin-bottom: -10vw;
+	transform: translateY(-100%);
 }
 
 .seccion_conocimientos {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 2em;
-    height: 500px;
-    background: linear-gradient(to bottom, var(--seccion-contacto-bg-color) 0%, var(--seccion-conocimientos-bg-color) 75%);
-    padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 2em;
+	height: 500px;
+	background: linear-gradient(
+		to bottom,
+		var(--seccion-contacto-bg-color) 0%,
+		var(--seccion-conocimientos-bg-color) 75%
+	);
+	padding-top: 50px;
 }
 
 #conocimientos_ext {
-    height: 7vw;
-    width: 100%;
-    background-color: var(--seccion-conocimientos-bg-color);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    margin-bottom: -10vw;
-    transform: translateY(-100%);
+	height: 6vw;
+	width: 100%;
+	background-color: var(--seccion-conocimientos-bg-color);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	margin-bottom: -10vw;
+	transform: translateY(-100%);
 }
 
 .cuadernos {
-    position: relative;
+	position: relative;
 }
 
 .hoja_cuaderno {
@@ -330,11 +351,16 @@ body {
 }
 
 svg:hover {
-    fill-opacity: .9;
+	fill-opacity: 0.9;
 }
 
-.logo_accenture:hover, .logo_travelsoft:hover, .logo_amdocs:hover, .logo_geoban:hover, .logo_vias:hover, .logo_dragados:hover {
-    opacity: .5;
+.logo_accenture:hover,
+.logo_travelsoft:hover,
+.logo_amdocs:hover,
+.logo_geoban:hover,
+.logo_vias:hover,
+.logo_dragados:hover {
+	opacity: 0.5;
 }
 
 .accenture {
@@ -457,62 +483,62 @@ svg:hover {
 }
 
 .detalle {
-    position: absolute;
-    left: 50%;
-    top: 50px;
-    width: 800px;
-    max-height: 450px;
-    height: auto;
-    box-sizing: content-box;
-    border-radius: 8px;
-    font-family: var(--text-font-family);
-    font-size: small;
-    padding: 5px;
-    min-height: 50px;
-    box-shadow: 2px 2px 5px #181818;
-    word-wrap: break-word;
-    margin-left: 410px;
-    margin-top: -10px;
-    transform: translateX(-100%);
-    z-index: 10;
-    border: 2px solid black;
-    animation: animacion_detalle linear .7s;
+	position: absolute;
+	left: 50%;
+	top: 50px;
+	width: 800px;
+	max-height: 450px;
+	height: auto;
+	box-sizing: content-box;
+	border-radius: 8px;
+	font-family: var(--text-font-family);
+	font-size: small;
+	padding: 5px;
+	min-height: 50px;
+	box-shadow: 2px 2px 5px #181818;
+	word-wrap: break-word;
+	margin-left: 410px;
+	margin-top: -10px;
+	transform: translateX(-100%);
+	z-index: 10;
+	border: 2px solid black;
+	animation: animacion_detalle linear 0.7s;
 }
 
-    ::-webkit-scrollbar {
-        width: 10px;
-    }
+::-webkit-scrollbar {
+	width: 10px;
+}
 
-    ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px grey;
-        border-radius: 7px;
-    }
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 7px;
+}
 
-    ::-webkit-scrollbar-thumb {
-        background: #cacfcc;
-        border-radius: 10px;
-    }
+::-webkit-scrollbar-thumb {
+	background: #cacfcc;
+	border-radius: 10px;
+}
 
-    ::-webkit-scrollbar-thumb:hover {
-        background: grey;
-    }
+::-webkit-scrollbar-thumb:hover {
+	background: grey;
+}
 
 .closeButton {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    position: relative;
-    text-align: right;
-    border-bottom: 1px solid black;
-    padding-bottom: 1px;
-    margin-bottom: 2px;
-    font-weight: bold;
-    z-index: 10;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	position: relative;
+	text-align: right;
+	border-bottom: 1px solid black;
+	padding-bottom: 1px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	z-index: 10;
 }
 
-    .closeButton:hover {
-	    cursor: pointer;
-    }
+.closeButton:hover {
+	cursor: pointer;
+}
 
 .logo_accenture_detalle {
 	width: 79px;
@@ -565,29 +591,28 @@ svg:hover {
 }
 
 .color_accenture {
-    background-color: #fadeb1;
+	background-color: #fadeb1;
 }
 
 .color_travelsoft {
-    background-color: #b1d5fa;
+	background-color: #b1d5fa;
 }
 
 .color_amdocs {
-    background-color: #c9b1fa;
+	background-color: #c9b1fa;
 }
 
 .color_geoban {
-    background-color: #fab1b1;
+	background-color: #fab1b1;
 }
 
 .color_vias {
-    background-color: #a3a39e;
+	background-color: #a3a39e;
 }
 
 .color_dragados {
-    background-color: #e0e0de;
+	background-color: #e0e0de;
 }
-
 
 .año {
 	text-align: center;
@@ -598,19 +623,19 @@ svg:hover {
 }
 
 .texto_detalle {
-    text-align: left;
-    margin: 25px;
-    text-overflow: ellipsis;
-    white-space: normal;
-    overflow: auto;
-    word-wrap: normal;
-    max-height: 345px;
+	text-align: left;
+	margin: 25px;
+	text-overflow: ellipsis;
+	white-space: normal;
+	overflow: auto;
+	word-wrap: normal;
+	max-height: 345px;
 }
 
 .invisible {
-    display: none;
+	display: none;
 }
 
 .cuaderno_experiencia {
-    height: 0;
+	height: 0;
 }
