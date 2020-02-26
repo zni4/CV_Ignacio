@@ -122,14 +122,37 @@
       '@newline''@newline'Mantenimiento del sistema comercial de las empresas eléctricas ERZ, UNELCO y GESA.
       '@newline''@newline'Análisis y resolución de las incidencias detectadas durante los procesos diarios de facturación.
     </ES>
-    <EN> </EN>
+    <EN>
+      '@bold'DESIGN OF COMMERCIAL PROCEDURES FOR A TELEPHONE SERVICE CENTER (Agbar) (PROJECT DIRECTOR)'bold@'
+      '@newline''@newline'Responsible for the implementation project of the call center of the Water and Sanitation Division (DAS) of the Agbar group.
+      '@newline''@newline'In close collaboration with the project management established by the DAS, management of the 2 work teams established for the development of the project (design team of the processes to be carried out in the call center, and team of new developments to be carried out to adapt the commercial system to the new procedures defined).
+      '@newline''@newline'Project management, follow up of the work carried out and its economic status.
+      '@newline''@newline''@bold'CONVERSION OF DATA (SEVILLANA) (PROJECT MANAGER)'bold@'
+      '@newline''@newline'Responsible for data conversion, from the old SEVILLANA commercial system to the new commercial system adopted by the entire ENDESA group.
+      '@newline''@newline'Direction of the work team (from 8 to 15 people) reporting directly to the person in charge of the implementation project.
+      '@newline''@newline'Coordination of the conversion team with the different work teams that carry out new developments.
+      '@newline''@newline''@bold'BILLING PROCESS REENGINEERING (SEVILLANA / ENDESA) (PROJECT MANAGER)'bold@'
+      '@newline''@newline'Integration into the system of the new billing processes that need to be included for the billing of those clients that take advantage of the new regulated market (large consumers).
+      '@newline''@newline'S direct supervision of the development team responsible for making such modifications, generating progress reports for the project management.
+      '@newline''@newline'Responsible for the design of the new billing processes to be included in the commercial system for later implementation throughout the ENDESA group.
+      '@newline''@newline'Reengineering of the different billing processes of each of the companies in the ENDESA group in order to homogenize them in a series of procedures common to all the companies in the group.
+      '@newline''@newline'Reengineering of the billing processes of the commercial system developed for ERZ, UNELCO and GESA so that it can be used for companies with a greater number of customers (SEVILLANA and FECSA / ENHER).
+      '@newline''@newline''@bold'BILLING SYSTEM DEVELOPMENT (ERZ, UNELCO and GESA) (ANALYST)'bold@'
+      '@newline''@newline'Implementation of the commercial management system at UNELCO. Responsible for the tests of converted data prior to the implementation in production of the system.
+      '@newline''@newline'A Detailed analysis of data incidents for correction.
+      '@newline''@newline'Maintenance of the commercial system of the electric companies ERZ, UNELCO and GESA.
+      '@newline''@newline'Analysis and resolution of incidents detected during daily billing processes.
+    </EN>
   </Literal>
   <Literal Id="travelsoft">
     <ES>
-      '@bold'TOMA DE REQUERIMIENTOS PARA EL DESARROLLO DE PORTALES DE SERVICIOS TURISTICOS  (JEFE DE PROYECTO)'bold@'
+      '@bold'TOMA DE REQUERIMIENTOS PARA EL DESARROLLO DE PORTALES DE SERVICIOS TURISTICOS (JEFE DE PROYECTO)'bold@'
       '@newline''@newline'Responsable de la toma de requerimientos, diseño funcional y seguimiento del estado de los proyectos en curso, relativos al desarrollo de portales para la reserva online de servicios turísticos.
     </ES>
-    <EN> </EN>
+    <EN>
+      '@bold'TAKING REQUIREMENTS FOR THE DEVELOPMENT OF TOURIST SERVICES PORTALS (PROJECT MANAGER)'bold@'
+      '@newline''@newline'In charge of taking requirements, functional design and mamangement of ongoing projects, related to the development of portals for online booking of tourist services.
+    </EN>
   </Literal>
   <Literal Id="amdocs">
     <ES>
@@ -144,16 +167,32 @@
       '@newline''@newline'Análisis de viabilidad, y en su caso, adaptación de los nuevos procedimientos de facturación solicitados por la dirección de Telefónica al nuevo sistema de facturación.
       '@newline''@newline'Gestión del equipo de trabajo.
     </ES>
-    <EN> </EN>
+    <EN>
+      '@bold'GENERATION OF REPORTS FOR THE USER AREA (T-mobile)'bold@'
+      '@newline''@newline'Working in London for T-mobile. Responsible for generating reports for the user area.
+      '@newline''@newline''@bold'BILLING PROCESS REENGINEERING (Telefónica) (PROJECT MANAGER)'bold@'
+      '@newline''@newline'Definition of the new process for the billing of wholesale services. Integration of it within the existing billing system.
+      '@newline''@newline'Identification of the improvements to be made in the processes of identifying inconsistencies between the provisioning and customer management systems and the billing system of Telefónica.
+      '@newline''@newline'Analysis of the modifications to be made for the elimination of these inconsistencies and the consequent improvement of the billing processes.
+      '@newline''@newline''@bold'IMPLANTATION AND MAINTENANCE OF THE BILLING SYSTEM (Telefónica) (PROJECT MANAGER)'bold@'
+      '@newline''@newline'Responsible for the implementation and maintenance of one of the modules of the fixed telephone billing system of Telefónica.
+      '@newline''@newline'A Feasibility analysis, and where appropriate, adaptation of the new billing procedures requested by Telefónica's address to the new billing system.
+      '@newline''@newline'Team management.
+    </EN>
   </Literal>
   <Literal Id="geoban">
     <ES>
       '@bold'RESPONSABLE DE SEGURIDAD PARA LOS PROCESOS DE BACKOFFICE DE LOS BANCOS SANTANDER, BANESTO Y OPENBANK EN ESPAÑA, PORTUGAL, POLONIA Y MEXICO (Geoban)'bold@'
-      '@newline''@newline'Definición e implantación de un nuevo procedimiento de Seguridad acorde a las directivas de Seguridad de los bancos Santander, Banesto y Openbank.
-      '@newline''@newline'Implantación del nuevo procedimiento en España, Portugal, Polonia y México.
+      '@newline''@newline'Definición e implantación de un nuevo procedimiento de seguridad acorde a las directivas de seguridad de los bancos Santander, Banesto y Openbank.
+      '@newline''@newline'Implantación del nuevo procedimiento de seguridad en España, Portugal, Polonia y México.
       '@newline''@newline'Generación de informes para la dirección y gestión de un equipo de 5 personas.
     </ES>
-    <EN> </EN>
+    <EN>
+      '@bold'RESPONSIBLE FOR SECURITY FOR THE BACKOFFICE PROCESSES OF THE SANTANDER, BANESTO AND OPENBANK BANKS IN SPAIN, PORTUGAL, POLAND AND MEXICO (Geoban)'bold@'
+      '@newline''@newline'Definition and implementation of a new security procedure according to the security directives of banks Santander, Banesto and Openbank.
+      '@newline''@newline'Implementation of the new security procedure in Spain, Portugal, Poland and Mexico.
+      '@newline''@newline'Reports generation for the management. Management of a team of 5 people.
+    </EN>
   </Literal>
   <Literal Id="vias">
     <ES>
@@ -165,7 +204,15 @@
       '@newline''@newline'Realización de auditorías anuales para verificar el cumplimiento del procedimiento de compras establecido en la empresa.
       '@newline''@newline'Responsable del proyecto de modernización de la página web de la empresa. Negociación con proveedores.
     </ES>
-    <EN> </EN>
+    <EN>
+      '@bold'PROJECT MANAGER'bold@'
+      '@newline''@newline'Design and implementation of a new economic planning system for the works.
+      '@newline''@newline'Implementation of the data protection law (LOPD).
+      '@newline''@newline'Development and implementation of a new tool for monitoring the internal training of company employees.
+      '@newline''@newline'Development and implementation of a new system for monitoring and control of the company's R+D+i projects.
+      '@newline''@newline'Realization of annual audits to verify compliance with the purchasing procedure established in the company.
+      '@newline''@newline'Responsible for the modernization project of the company's website. Negotiation with suppliers.
+    </EN>
   </Literal>
   <Literal Id="dragados">
     <ES>
@@ -175,6 +222,12 @@
       '@newline''@newline'Diseño e implantación del módulo de aperturas en el sistema de licitaciones de obra de la empresa.
       '@newline''@newline'Integración, dentro del sistema de licitaciones de la empresa, de los sistemas de licitaciones de otras empresas del grupo.
     </ES>
-    <EN> </EN>
+    <EN>
+      '@bold'PROJECT MANAGER'bold@'
+      '@newline''@newline'System Map (Machinery Park), creation of the systems map for the management of the Dragados and Vias machinery park.
+      '@newline''@newline' Responsible for BI (Business Intelligence), choosing the right tool for the company's needs and developing and implementing the necessary dashboards.
+      '@newline''@newline'Design and implementation of the openings module in the company's bidding system.
+      '@newline''@newline'Integration, within the company's bidding system, of the bidding systems of other group companies.
+    </EN>
   </Literal>
 </Literales>
