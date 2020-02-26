@@ -139,7 +139,7 @@
 
 .animate_acerca_ext {
 	animation: animacion_acerca_ext linear 1s forwards;
-	animation-delay: 1s;
+	animation-delay: .5s;
 }
 
 @keyframes animacion_acerca_ext {
@@ -150,6 +150,45 @@
 	100% {
 		top: 1000px;
 	}
+}
+
+.animate_estudios_ext {
+    animation: animacion_estudios_ext linear 1s forwards;
+    animation-delay: .5s;
+}
+
+@keyframes animacion_estudios_ext {
+    100% {
+        transform: translateY(0%);
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+        margin-bottom: -5vw;
+    }
+}
+
+.animate_experiencia_ext {
+    animation: animacion_experiencia_ext linear 1s forwards;
+    animation-delay: .5s;
+}
+
+@keyframes animacion_experiencia_ext {
+    100% {
+        transform: translateY(0%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+        margin-bottom: -5vw;
+    }
+}
+
+.animate_conocimientos_ext {
+    animation: animacion_conocimientos_ext linear 1s forwards;
+    animation-delay: .5s;
+}
+
+@keyframes animacion_conocimientos_ext {
+    100% {
+        transform: translateY(-4vw);
+        clip-path: polygon(0 0, 100% 0, 50% 100%, 0 0);
+        margin-bottom: -100px;
+    }
 }
 
 .animate_tarjeta_contacto {
@@ -203,7 +242,7 @@
 	}
 }
 
-.animate_seccion_estudios {
+/*.animate_seccion_estudios {
 	animation: animacion_seccion_estudios linear 1s forwards;
 }
 
@@ -269,7 +308,7 @@
         background-color: var(--seccion-contacto-bg-color);
         visibility: visible;
     }
-}
+}*/
 
 .animate_accenture {
 	animation: animacion_accenture ease-out 0.1s forwards;
