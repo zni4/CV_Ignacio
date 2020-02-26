@@ -24,7 +24,7 @@ html {
 h1 {
 	font-family: var(--special-font-family);
 	text-shadow: 5px 5px 10px grey;
-	margin-top: 1vw;
+	margin-top: 2vw;
 }
 
 body {
@@ -333,11 +333,11 @@ body {
 }
 
 #conocimientos_ext {
-	height: 6vw;
+	height: 2vw;
 	width: 100%;
 	background-color: var(--seccion-conocimientos-bg-color);
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-	margin-bottom: -10vw;
+	margin-bottom: -2vw;
 	transform: translateY(-100%);
 }
 
