@@ -185,9 +185,9 @@
 
 @keyframes animacion_conocimientos_ext {
 	100% {
-		transform: translateY(-2vw);
+		transform: translateY(-6vw);
 		clip-path: polygon(0 0, 100% 0, 50% 100%, 0 0);
-		margin-bottom: -100px;
+		margin-bottom: -6vm;
 	}
 }
 
