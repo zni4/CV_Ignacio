@@ -315,4 +315,24 @@
       In 1996 I started my professional career.
     </EN>
   </Literal>
+  <Literal Id="idiomas">
+    <ES>IDIOMAS</ES>
+    <EN>LANGUAGES</EN>
+  </Literal>
+  <Literal Id="nivelIngles">
+    <ES>
+      '@bold'Inglés'bold@'
+      '@newline'Nivel alto hablado y escrito (C1)
+      '@newline''@newline'Clases de perfeccionamiento durante los años 2000 y 2001 y desde 2009 hasta la actualidad.
+      '@newline''@newline''@bold'Español'bold@'
+      '@newline'Idioma materno.
+    </ES>
+    <EN>
+      '@bold'English'bold@'
+      '@newline'High level, written and spoken (C1)
+      '@newline''@newline'Training classes during the years 2000 and 2001 and from 2009 to the present.
+      '@newline''@newline''@bold'Spanish'bold@'
+      '@newline'Mother language.
+    </EN>
+  </Literal>
 </Literales>
