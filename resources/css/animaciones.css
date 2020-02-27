@@ -535,3 +535,65 @@
 		width: 800px;
 	}
 }
+
+.animate_letra1 {
+    animation: animacion_letra linear 0.5s forwards;
+    animation-delay: .1s;
+}
+
+.animate_letra2 {
+    animation: animacion_letra linear 0.5s forwards;
+    animation-delay: .2s;
+}
+
+.animate_letra3 {
+    animation: animacion_letra linear 0.5s forwards;
+    animation-delay: .3s;
+}
+
+.animate_letra4 {
+    animation: animacion_letra linear 0.5s forwards;
+    animation-delay: .4s;
+}
+
+.animate_letra5 {
+    animation: animacion_letra linear 0.5s forwards;
+    animation-delay: .5s;
+}
+
+.animate_letra6 {
+    animation: animacion_letra linear 0.5s forwards;
+    animation-delay: .6s;
+}
+
+.animate_letra7 {
+    animation: animacion_letra linear 0.5s forwards;
+    animation-delay: .7s;
+}
+
+.animate_letra8 {
+    animation: animacion_letra linear 0.5s forwards;
+    animation-delay: .8s;
+}
+
+.animate_letra9 {
+    animation: animacion_letra linear 0.5s forwards;
+    animation-delay: .9s;
+}
+
+.animate_letra10 {
+    animation: animacion_letra linear 0.5s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes animacion_letra {
+    0% {
+        opacity: 0;
+        color: red;
+    }
+
+    100% {
+        opacity: 1;
+        color: white;
+    }
+}

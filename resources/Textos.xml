@@ -28,9 +28,49 @@
     <ES>Acerca de mí</ES>
     <EN>About me</EN>
   </Literal>
-  <Literal Id="saludo">
+  <!--<Literal Id="saludo">
     <ES>Bienvenido</ES>
     <EN>Wellcome</EN>
+  </Literal>-->
+  <Literal Id="l1">
+    <ES>B</ES>
+    <EN>W</EN>
+  </Literal>
+  <Literal Id="l2">
+    <ES>i</ES>
+    <EN>e</EN>
+  </Literal>
+  <Literal Id="l3">
+    <ES>e</ES>
+    <EN>l</EN>
+  </Literal>
+  <Literal Id="l4">
+    <ES>n</ES>
+    <EN>l</EN>
+  </Literal>
+  <Literal Id="l5">
+    <ES>v</ES>
+    <EN>c</EN>
+  </Literal>
+  <Literal Id="l6">
+    <ES>e</ES>
+    <EN>o</EN>
+  </Literal>
+  <Literal Id="l7">
+    <ES>n</ES>
+    <EN>m</EN>
+  </Literal>
+  <Literal Id="l8">
+    <ES>i</ES>
+    <EN>e</EN>
+  </Literal>
+  <Literal Id="l9">
+    <ES>d</ES>
+    <EN> </EN>
+  </Literal>
+  <Literal Id="l10">
+    <ES>o</ES>
+    <EN> </EN>
   </Literal>
   <Literal Id="breve_descripcion">
     <ES>
