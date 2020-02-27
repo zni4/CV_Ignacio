@@ -170,7 +170,7 @@ body {
 	font-size: 150px;
 	font-weight: 900;
 	transform: translate(-50%, -50%);
-    display: flex;
+	display: flex;
 }
 
 .instrucciones {
@@ -296,7 +296,7 @@ body {
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 	margin-bottom: -10vw;
 	transform: translateY(-100%);
-    border: 1px solid var(--seccion-estudios-bg-color);
+	border: 1px solid var(--seccion-estudios-bg-color);
 }
 
 .seccion_experiencia {
@@ -312,13 +312,13 @@ body {
 }
 
 #experiencia_ext {
-    height: 7vw;
-    width: 100%;
-    background-color: var(--seccion-experiencia-bg-color);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    margin-bottom: -10vw;
-    transform: translateY(-100%);
-    border: 1px solid var(--seccion-experiencia-bg-color);
+	height: 7vw;
+	width: 100%;
+	background-color: var(--seccion-experiencia-bg-color);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	margin-bottom: -10vw;
+	transform: translateY(-100%);
+	border: 1px solid var(--seccion-experiencia-bg-color);
 }
 
 .seccion_conocimientos {
@@ -336,13 +336,13 @@ body {
 }
 
 #conocimientos_ext {
-    height: 5vw;
-    width: 100%;
-    background-color: var(--seccion-conocimientos-bg-color);
-    clip-path: circle(5vw at 50% -30%);
-    margin-bottom: -5vw;
-    transform: translateY(-100%);
-    border: 1px solid var(--seccion-conocimientos-bg-color);
+	height: 5vw;
+	width: 100%;
+	background-color: var(--seccion-conocimientos-bg-color);
+	clip-path: circle(5vw at 50% -30%);
+	margin-bottom: -5vw;
+	transform: translateY(-100%);
+	border: 1px solid var(--seccion-conocimientos-bg-color);
 }
 
 .cuadernos {
@@ -645,94 +645,99 @@ svg:hover {
 }
 
 .letras {
-    opacity: 0;
-    color: red;
+	opacity: 0;
+	color: red;
 }
 
 .universidad {
-    font-size: 40px;
-    font-weight: 600;
-    text-align: center;
-    color: white;
-    font-family: var(--menu-font-family:);
-    text-shadow: 5px 5px 20px red;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+	font-family: var(--menu-font-family: );
+	text-shadow: 5px 5px 20px red;
 }
 
 .trabajo {
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-    font-family: var(--menu-font-family:);
-    color: black;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	font-family: var(--menu-font-family: );
+	color: black;
 }
 
-.inicio_universidad, .final_universidad, .ingeniero, .inicio_trabajo {
-    position: relative;
-    left: -100%;
-    width: 100%;
+.inicio_universidad,
+.final_universidad,
+.ingeniero,
+.inicio_trabajo {
+	position: relative;
+	left: -100%;
+	width: 100%;
 }
 
 .imagenIngeniero {
-    width: 218px;
-    height: 241px;
-    opacity: 0;
+	width: 218px;
+	height: 241px;
+	opacity: 0;
 }
 
 .detalle_universidad {
-    position: relative;
-    left: 10%;
-    font-size: medium;
-    font-weight: 100;
-    text-align: left;
-    color: white;
-    opacity: 0;
-    background-color: #d12929;
-    border-radius: 10px;
-    width: 55%;
-    padding: 10px;
+	position: relative;
+	left: 10%;
+	font-size: medium;
+	font-weight: 100;
+	text-align: left;
+	color: white;
+	opacity: 0;
+	background-color: #d12929;
+	border-radius: 10px;
+	width: 55%;
+	padding: 10px;
 }
 
 .contenedor_conocimiento {
-    display: flex;
-    align-self: center;
-    justify-content: space-around;
-    width: 100%;
-    padding-top: 10px;
+	display: flex;
+	align-self: center;
+	justify-content: space-around;
+	width: 100%;
+	padding-top: 10px;
 }
 
 .tarjeta_conocimiento {
-    background-color: white;
-    border-radius: 10px;
-    width: 200px;
-    font-size: medium;
-    box-shadow: 10px 10px 10px black;
+	background-color: white;
+	border-radius: 10px;
+	width: 200px;
+	font-size: medium;
+	box-shadow: 10px 10px 10px black;
 }
 
 .cabecera_conocimiento {
-    border-bottom: 1px solid black;
-    margin: 5px;
-    display: flex;
-    align-items: center;
+	border-bottom: 1px solid black;
+	margin: 5px;
+	display: flex;
+	align-items: center;
 }
 
-    .cabecera_conocimiento img {
-        display: block;
-        width: 50px;
-        height: 50px;
-        object-fit: contain;
-        padding: 5px;
-    }
+.cabecera_conocimiento img {
+	display: block;
+	width: 50px;
+	height: 50px;
+	object-fit: contain;
+	padding: 5px;
+}
 
 .cabecera_conocimiento h1 {
-    font-size: larger;
-    font-family: var(--menu-font-family);
-    text-shadow: none;
-    margin-top: 0px;
-    padding: 15px;
+	font-size: larger;
+	font-family: var(--menu-font-family);
+	text-shadow: none;
+	margin-top: 0px;
+	padding: 15px;
+	text-align: center;
+	width: 100%;
 }
 
 .texto_conocimiento {
-    margin: 5px;
-    font-size: small;
-    text-align: left;
+	margin: 5px;
+	font-size: small;
+	text-align: left;
 }
