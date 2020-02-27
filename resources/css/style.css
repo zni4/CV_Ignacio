@@ -336,11 +336,11 @@ body {
 }
 
 #conocimientos_ext {
-    height: 2vw;
+    height: 5vw;
     width: 100%;
     background-color: var(--seccion-conocimientos-bg-color);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    margin-bottom: -2vw;
+    clip-path: circle(5vw at 50% -30%);
+    margin-bottom: -5vw;
     transform: translateY(-100%);
     border: 1px solid var(--seccion-conocimientos-bg-color);
 }
