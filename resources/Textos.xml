@@ -270,4 +270,49 @@
       '@newline''@newline'Integration, within the company's bidding system, of the bidding systems of other group companies.
     </EN>
   </Literal>
+
+  <Literal Id="inicioUniversidad">
+    <ES>
+      En 1989 fui a la universidad...
+    </ES>
+    <EN>
+      In 1989 I went to college...
+    </EN>
+  </Literal>
+  <Literal Id="finalUniversidad">
+    <ES>
+      donde me gradué en 1996,
+    </ES>
+    <EN>
+      where I graduated in 1996,
+    </EN>
+  </Literal>
+  <Literal Id="ingeniero">
+    <ES>
+       como ingeniero mecánico.
+    </ES>
+    <EN>
+       as a mechanical engineer.
+    </EN>
+  </Literal>
+  <Literal Id="detalle_universidad">
+    <ES>
+      '@bold'1989 - 1996'bold@'
+      '@newline'Ingeniero Industrial. Especialidad mecánica.
+      '@newline'Escuela Técnica Superior de Ingenieros Industriales de la Universidad Politécnica de Madrid.
+    </ES>
+    <EN>
+      '@bold'1989 - 1996'bold@'
+      '@newline'Industrial Engineer. Mechanical specialty.
+      '@newline'Technical School of Industrial Engineering at Madrid's Polytechnic University.
+    </EN>
+  </Literal>
+  <Literal Id="inicioTrabajo">
+    <ES>
+      En 1996 comencé mi andadura profesional.
+    </ES>
+    <EN>
+      In 1996 I started my professional career.
+    </EN>
+  </Literal>
 </Literales>
