@@ -38,18 +38,14 @@ function showSlides(n) {
     var anterior = slideIndex - 2;
     var siguiente = slideIndex;
 
-    //if (n >= slides.length) {
-    //    anterior = slides.length - 1;
-    //    siguiente = 0;
-    //}
-    //if (n < 1) {
-    //    anterior = slides.length - 1;
-    //    siguiente = slideIndex + 1;
-    //}
-    //if (n = 1) {
-    //    anterior = slides.length - 1;
-    //    siguiente = slideIndex;
-    //}
+    if (n == slides.length) {
+        anterior = slides.length - 2;
+        siguiente = 0;
+    }
+    if (n == 1) {
+        anterior = slides.length - 1;
+        siguiente = slideIndex;
+    }
 
     slides[anterior].style.display = "block";
     slides[anterior].className += " notfocus";
