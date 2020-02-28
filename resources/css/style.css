@@ -321,30 +321,6 @@ body {
 	border: 1px solid var(--seccion-experiencia-bg-color);
 }
 
-.seccion_conocimientos {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	font-size: 2em;
-	height: 500px;
-	background: linear-gradient(
-		to bottom,
-		var(--seccion-contacto-bg-color) 0%,
-		var(--seccion-conocimientos-bg-color) 75%
-	);
-	padding-top: 50px;
-}
-
-#conocimientos_ext {
-	height: 5vw;
-	width: 100%;
-	background-color: var(--seccion-conocimientos-bg-color);
-	clip-path: circle(5vw at 50% -30%);
-	margin-bottom: -5vw;
-	transform: translateY(-100%);
-	border: 1px solid var(--seccion-conocimientos-bg-color);
-}
-
 .cuadernos {
 	position: relative;
 }
@@ -693,51 +669,4 @@ svg:hover {
 	border-radius: 10px;
 	width: 55%;
 	padding: 10px;
-}
-
-.contenedor_conocimiento {
-	display: flex;
-	align-self: center;
-	justify-content: space-around;
-	width: 100%;
-	padding-top: 10px;
-}
-
-.tarjeta_conocimiento {
-	background-color: white;
-	border-radius: 10px;
-	width: 200px;
-	font-size: medium;
-	box-shadow: 10px 10px 10px black;
-}
-
-.cabecera_conocimiento {
-	border-bottom: 1px solid black;
-	margin: 5px;
-	display: flex;
-	align-items: center;
-}
-
-.cabecera_conocimiento img {
-	display: block;
-	width: 50px;
-	height: 50px;
-	object-fit: contain;
-	padding: 5px;
-}
-
-.cabecera_conocimiento h1 {
-	font-size: larger;
-	font-family: var(--menu-font-family);
-	text-shadow: none;
-	margin-top: 0px;
-	padding: 15px;
-	text-align: center;
-	width: 100%;
-}
-
-.texto_conocimiento {
-	margin: 5px;
-	font-size: small;
-	text-align: left;
 }

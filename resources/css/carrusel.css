@@ -1,0 +1,126 @@
+﻿.seccion_conocimientos {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 2em;
+	height: 500px;
+	background: linear-gradient(
+		to bottom,
+		var(--seccion-contacto-bg-color) 0%,
+		var(--seccion-conocimientos-bg-color) 75%
+	);
+	padding-top: 50px;
+}
+
+#conocimientos_ext {
+	height: 5vw;
+	width: 100%;
+	background-color: var(--seccion-conocimientos-bg-color);
+	clip-path: circle(5vw at 50% -30%);
+	margin-bottom: -5vw;
+	transform: translateY(-70%);
+	border: 1px solid var(--seccion-conocimientos-bg-color);
+}
+
+.contenedor_conocimiento {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 100%;
+    position: relative;
+    max-width: 750px;
+    align-content: center;
+}
+
+.tarjeta_conocimiento {
+	background-color: white;
+	border-radius: 10px;
+	width: 225px;
+	font-size: medium;
+	box-shadow: 10px 10px 10px black;
+    display: none;
+}
+
+.cabecera_conocimiento {
+	border-bottom: 1px solid black;
+	margin: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.cabecera_conocimiento img {
+	display: block;
+	width: 50px;
+	height: 50px;
+	object-fit: contain;
+	padding: 5px;
+}
+
+.cabecera_conocimiento h1 {
+	font-size: larger;
+	font-family: var(--menu-font-family);
+	text-shadow: none;
+	margin-top: 0px;
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+.texto_conocimiento {
+	margin: 5px;
+	font-size: small;
+	text-align: left;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    user-select: none;
+    text-align: center;
+    background-color: grey;
+    padding-top: 12px;
+}
+
+.prev {
+    left: 206px;
+}
+
+.next {
+    right: 206px;
+}
+
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+.indicadores_puntos {
+    text-align:center;
+}
+
+.punto {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .activo, .punto:hover {
+        background-color: #717171;
+    }
+
+.notfocus {
+    opacity: .3;
+    box-shadow: none;
+}

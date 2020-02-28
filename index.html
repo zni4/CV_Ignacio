@@ -1,42 +1,39 @@
 ﻿<!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<title>Ignacio Nogueira</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Ignacio Nogueira</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link
-			href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Simonetta&display=swap"
-			rel="stylesheet"
-		/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+          rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+          rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Simonetta&display=swap"
+          rel="stylesheet" />
 
-		<link rel="stylesheet" href="./resources/css/style.css" />
-		<link rel="stylesheet" href="./resources/css/animaciones.css" />
+    <link rel="stylesheet" href="./resources/css/style.css" />
+    <link rel="stylesheet" href="./resources/css/animaciones.css" />
+    <link rel="stylesheet" href="./resources/css/carrusel.css" />
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script type="text/javascript" src="./resources/js/tools.js"></script>
-		<script
-			type="text/javascript"
-			src="./resources/js/onscroll-effect.js"
-		></script>
-		<script type="text/javascript" src="./resources/js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./resources/js/tools.js"></script>
+    <script type="text/javascript"
+            src="./resources/js/onscroll-effect.js"></script>
+    <script type="text/javascript" src="./resources/js/index.js"></script>
+    <script type="text/javascript" src="./resources/js/carrusel.js"></script>
 
-		<script>
-			$(document).ready(function() {
-				informarContenidoSinTraducir();
-				obtenerIdioma();
-				seleccionarIdioma(mIdiomaActual);
-			});
-		</script>
-	</head>
+    <script>
+        $(document).ready(function () {
+            informarContenidoSinTraducir();
+            obtenerIdioma();
+            seleccionarIdioma(mIdiomaActual);
+
+            showSlides(1);
+        });
+
+    </script>
+</head>
 	<body>
 		<div class="header_container">
 			<div class="header">
@@ -444,102 +441,119 @@
 			data-scroll-offset="1"
 		></div>
 
-		<div id="conocimientos" class="seccion_conocimientos">
-			<h1>{conocimientos}</h1>
+        <div id="conocimientos" class="seccion_conocimientos">
+            <h1>{conocimientos}</h1>
 
-			<div class="contenedor_conocimiento">
-				<div class="tarjeta_conocimiento">
-					<div class="cabecera_conocimiento">
-						<img src="./resources/images/Ingles.png" />
-						<h1>{idiomas}</h1>
-					</div>
-					<div class="texto_conocimiento">
-						{nivelIngles}
-					</div>
-				</div>
-				<div class="tarjeta_conocimiento">
-					<div class="cabecera_conocimiento">
-						<img src="./resources/images/logos/SQL.png" />
-						<h1>SQL</h1>
-					</div>
-					<div class="texto_conocimiento">
-						{nivelIngles}
-					</div>
-				</div>
-				<div class="tarjeta_conocimiento">
-					<div class="cabecera_conocimiento">
-						<img src="./resources/images/logos/VisualBasic.png" />
-						<h1>Visual Basic</h1>
-					</div>
-					<div class="texto_conocimiento">
-						{nivelIngles}
-					</div>
-				</div>
-				<div class="tarjeta_conocimiento">
-					<div class="cabecera_conocimiento">
-						<img src="./resources/images/logos/Office.png" />
-						<h1>MSOffice</h1>
-					</div>
-					<div class="texto_conocimiento">
-						{nivelIngles}
-					</div>
-				</div>
-				<div class="tarjeta_conocimiento">
-					<div class="cabecera_conocimiento">
-						<img src="./resources/images/logos/QlikView.png" />
-						<h1>QlikView</h1>
-					</div>
-					<div class="texto_conocimiento">
-						{nivelIngles}
-					</div>
-				</div>
-				<div class="tarjeta_conocimiento">
-					<div class="cabecera_conocimiento">
-						<img src="./resources/images/logos/HTML5.png" />
-						<h1>HTML</h1>
-					</div>
-					<div class="texto_conocimiento">
-						{nivelIngles}
-					</div>
-				</div>
-				<div class="tarjeta_conocimiento">
-					<div class="cabecera_conocimiento">
-						<img src="./resources/images/logos/CSS.png" />
-						<h1>CSS</h1>
-					</div>
-					<div class="texto_conocimiento">
-						{nivelIngles}
-					</div>
-				</div>
-				<div class="tarjeta_conocimiento">
-					<div class="cabecera_conocimiento">
-						<img src="./resources/images/logos/JS.png" />
-						<h1>JavaScript</h1>
-					</div>
-					<div class="texto_conocimiento">
-						{nivelIngles}
-					</div>
-				</div>
-				<div class="tarjeta_conocimiento">
-					<div class="cabecera_conocimiento">
-						<img src="./resources/images/logos/Cobol.png" />
-						<h1>Cobol</h1>
-					</div>
-					<div class="texto_conocimiento">
-						{nivelIngles}
-					</div>
-				</div>
-				<div class="tarjeta_conocimiento">
-					<div class="cabecera_conocimiento">
-						<img src="./resources/images/logos/Net.png" />
-						<h1>.Net</h1>
-					</div>
-					<div class="texto_conocimiento">
-						{nivelIngles}
-					</div>
-				</div>
-			</div>
-		</div>
+            <div class="contenedor_conocimiento">
+                <div class="tarjeta_conocimiento">
+                    <div class="cabecera_conocimiento">
+                        <img src="./resources/images/Ingles.png" />
+                        <h1>{idiomas}</h1>
+                    </div>
+                    <div class="texto_conocimiento">
+                        {nivelIngles}
+                    </div>
+                </div>
+                <div class="tarjeta_conocimiento">
+                    <div class="cabecera_conocimiento">
+                        <img src="./resources/images/logos/SQL.png" />
+                        <h1>SQL</h1>
+                    </div>
+                    <div class="texto_conocimiento">
+                        {nivelIngles}
+                    </div>
+                </div>
+                <div class="tarjeta_conocimiento">
+                    <div class="cabecera_conocimiento">
+                        <img src="./resources/images/logos/VisualBasic.png" />
+                        <h1>Visual Basic</h1>
+                    </div>
+                    <div class="texto_conocimiento">
+                        {nivelIngles}
+                    </div>
+                </div>
+                <div class="tarjeta_conocimiento">
+                    <div class="cabecera_conocimiento">
+                        <img src="./resources/images/logos/Office.png" />
+                        <h1>MSOffice</h1>
+                    </div>
+                    <div class="texto_conocimiento">
+                        {nivelIngles}
+                    </div>
+                </div>
+                <div class="tarjeta_conocimiento">
+                    <div class="cabecera_conocimiento">
+                        <img src="./resources/images/logos/QlikView.png" />
+                        <h1>QlikView</h1>
+                    </div>
+                    <div class="texto_conocimiento">
+                        {nivelIngles}
+                    </div>
+                </div>
+                <div class="tarjeta_conocimiento">
+                    <div class="cabecera_conocimiento">
+                        <img src="./resources/images/logos/HTML5.png" />
+                        <h1>HTML</h1>
+                    </div>
+                    <div class="texto_conocimiento">
+                        {nivelIngles}
+                    </div>
+                </div>
+                <div class="tarjeta_conocimiento">
+                    <div class="cabecera_conocimiento">
+                        <img src="./resources/images/logos/CSS.png" />
+                        <h1>CSS</h1>
+                    </div>
+                    <div class="texto_conocimiento">
+                        {nivelIngles}
+                    </div>
+                </div>
+                <div class="tarjeta_conocimiento">
+                    <div class="cabecera_conocimiento">
+                        <img src="./resources/images/logos/JS.png" />
+                        <h1>JavaScript</h1>
+                    </div>
+                    <div class="texto_conocimiento">
+                        {nivelIngles}
+                    </div>
+                </div>
+                <div class="tarjeta_conocimiento">
+                    <div class="cabecera_conocimiento">
+                        <img src="./resources/images/logos/Cobol.png" />
+                        <h1>Cobol</h1>
+                    </div>
+                    <div class="texto_conocimiento">
+                        {nivelIngles}
+                    </div>
+                </div>
+                <div class="tarjeta_conocimiento">
+                    <div class="cabecera_conocimiento">
+                        <img src="./resources/images/logos/Net.png" />
+                        <h1>.Net</h1>
+                    </div>
+                    <div class="texto_conocimiento">
+                        {nivelIngles}
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="indicadores_puntos">
+                <span class="punto" onclick="currentSlide(1)"></span>
+                <span class="punto" onclick="currentSlide(2)"></span>
+                <span class="punto" onclick="currentSlide(3)"></span>
+                <span class="punto" onclick="currentSlide(4)"></span>
+                <span class="punto" onclick="currentSlide(5)"></span>
+                <span class="punto" onclick="currentSlide(6)"></span>
+                <span class="punto" onclick="currentSlide(7)"></span>
+                <span class="punto" onclick="currentSlide(8)"></span>
+                <span class="punto" onclick="currentSlide(9)"></span>
+                <span class="punto" onclick="currentSlide(10)"></span>
+            </div>
+
+        </div>
 
 		<div
 			id="conocimientos_ext"
