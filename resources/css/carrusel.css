@@ -23,13 +23,13 @@
 }
 
 .contenedor_conocimiento {
-    display: flex;
-    justify-content: space-between;
-    align-self: center;
-    width: 100%;
-    position: relative;
-    max-width: 750px;
-    align-content: center;
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+	width: 100%;
+	position: relative;
+	max-width: 750px;
+	align-content: center;
 }
 
 .tarjeta_conocimiento {
@@ -38,7 +38,8 @@
 	width: 225px;
 	font-size: medium;
 	box-shadow: 10px 10px 10px black;
-    display: none;
+	display: none;
+	order: 2;
 }
 
 .cabecera_conocimiento {
@@ -72,55 +73,66 @@
 	text-align: left;
 }
 
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: 50px;
-    height: 50px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 50%;
-    user-select: none;
-    text-align: center;
-    background-color: grey;
-    padding-top: 12px;
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 50%;
+	user-select: none;
+	text-align: center;
+	background-color: grey;
+	padding-top: 12px;
 }
 
 .prev {
-    left: 206px;
+	left: 206px;
 }
 
 .next {
-    right: 206px;
+	right: 206px;
 }
 
-    .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
-    }
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
 
 .indicadores_puntos {
-    text-align:center;
+	text-align: center;
 }
 
 .punto {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
 }
 
-    .activo, .punto:hover {
-        background-color: #717171;
-    }
+.activo,
+.punto:hover {
+	background-color: #717171;
+}
 
 .notfocus {
-    opacity: .3;
-    box-shadow: none;
+	opacity: 0.3;
+	box-shadow: none;
+}
+
+.anterior {
+	order: 1;
+}
+
+.siguiente {
+	order: 3;
 }
