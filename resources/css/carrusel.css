@@ -129,6 +129,11 @@
 	box-shadow: none;
 }
 
+.anterior,
+.siguiente {
+	transform: scale(0.9);
+}
+
 .anterior {
 	order: 1;
 }

@@ -335,4 +335,8 @@
       '@newline'Mother language.
     </EN>
   </Literal>
+  <Literal Id="gestion_proyectos">
+    <ES>Gestión Proyectos</ES>
+    <EN>Project Management</EN>
+  </Literal>
 </Literales>
