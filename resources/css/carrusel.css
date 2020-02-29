@@ -141,3 +141,7 @@
 .siguiente {
 	order: 3;
 }
+
+.numero_conocimiento {
+	font-size: x-small;
+}

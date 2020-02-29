@@ -630,7 +630,7 @@ svg:hover {
 	font-weight: 600;
 	text-align: center;
 	color: white;
-	font-family: var(--menu-font-family: );
+	font-family: var(--menu-font-family);
 	text-shadow: 5px 5px 20px red;
 }
 
@@ -638,7 +638,7 @@ svg:hover {
 	font-size: 30px;
 	font-weight: 600;
 	text-align: center;
-	font-family: var(--menu-font-family: );
+	font-family: var(--menu-font-family);
 	color: black;
 }
 
