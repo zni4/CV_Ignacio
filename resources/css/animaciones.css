@@ -652,3 +652,17 @@
 		opacity: 1;
 	}
 }
+
+.animate_conocimientos {
+	animation: animacion_conocimientos linear 1s forwards;
+	animation-delay: 0.5s;
+}
+
+@keyframes animacion_conocimientos {
+	0% {
+		left: -100%;
+	}
+	100% {
+		left: 0;
+	}
+}
