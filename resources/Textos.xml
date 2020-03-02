@@ -352,12 +352,38 @@
     <EN>desc vb en</EN>
   </Literal>
   <Literal Id="office">
-    <ES>desc office</ES>
-    <EN>desc office en</EN>
+    <ES>
+      '@bold'Excel'bold@'
+      '@newline'Nivel avanzado, generación de macros y funciones.
+      '@newline''@bold'Word'bold@'
+      '@newline'Nivel avanzado-
+      '@newline''@bold'Access'bold@'
+      '@newline'Nivel avanzado, generación de aplicaciones.
+      '@newline''@bold'Powerpoint'bold@'
+      '@newline'Nivel avanzado.
+    </ES>
+    <EN>
+      '@bold'Excel'bold@'
+      '@newline'Advanced level, creation of macros and functions.
+      '@newline''@bold'Word'bold@'
+      '@newline'Advanced level.
+      '@newline''@bold'Access'bold@'
+      '@newline'Advanced level, creation of applications.
+      '@newline''@bold'Powerpoint'bold@'
+      '@newline'Advanced level.
+    </EN>
   </Literal>
   <Literal Id="qlikview">
-    <ES>desc qlikview</ES>
-    <EN>desc qlikview en</EN>
+    <ES>
+      Extracción de datos y creación de cuadros de mando.
+      '@newline''@newline''@bold'Año 2019'bold@'
+      '@newline'Curso de desarrollo de cuadros de mando.
+    </ES>
+    <EN>
+      Data extraction and creation of dashboards.
+      '@newline''@newline''@bold'Year 2019'bold@'
+      '@newline'Dashboard development course.
+    </EN>
   </Literal>
   <Literal Id="html">
     <ES>desc html</ES>
