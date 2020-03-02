@@ -379,4 +379,12 @@
     <ES>desc .net</ES>
     <EN>desc .net en</EN>
   </Literal>
+  <Literal Id="detener">
+    <ES>Detener</ES>
+    <EN>Stop</EN>
+  </Literal>
+  <Literal Id="reanudar">
+    <ES>Reanudar</ES>
+    <EN>Resume</EN>
+  </Literal>
 </Literales>

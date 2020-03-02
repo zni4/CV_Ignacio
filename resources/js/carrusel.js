@@ -1,10 +1,13 @@
 var slideIndex = 1;
+var t;
 
 function plusSlides(n) {
+    clearTimeout(t);
 	showSlides((slideIndex += n));
 }
 
 function currentSlide(n) {
+    clearTimeout(t);
 	showSlides((slideIndex = n));
 }
 
@@ -65,5 +68,30 @@ function showSlides(n) {
 	slides[anterior].className += ' notfocus anterior';
 
 	slides[siguiente].style.display = 'block';
-	slides[siguiente].className += ' notfocus siguiente';
+    slides[siguiente].className += ' notfocus siguiente';
+
+    if (n > slides.length) {
+        slideIndex = 1;
+        n = 1;
+    }
+
+    t = setTimeout(function () { currentSlide(n + 1);}, 3000);
+}
+
+var detenido = false;
+var fichaParada;
+
+function detener() {
+    fichaParada = slideIndex;
+
+    if (!detenido) {
+        detenido = true;
+        document.getElementById("detener").innerHTML = TraducirClave("reanudar");
+        clearTimeout(t);
+    }
+    else {
+        detenido = false;
+        document.getElementById("detener").innerHTML = TraducirClave("detener");
+        t = setTimeout(function () { currentSlide(fichaParada); }, 3000);
+    }
 }
