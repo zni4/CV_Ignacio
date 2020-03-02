@@ -339,4 +339,44 @@
     <ES>Gestión Proyectos</ES>
     <EN>Project Management</EN>
   </Literal>
+  <Literal Id="textogestion">
+    <ES>desc gestion</ES>
+    <EN>desc gestion en</EN>
+  </Literal>
+  <Literal Id="sql">
+    <ES>desc sql</ES>
+    <EN>desc sql en</EN>
+  </Literal>
+  <Literal Id="visualbasic">
+    <ES>desc vb</ES>
+    <EN>desc vb en</EN>
+  </Literal>
+  <Literal Id="office">
+    <ES>desc office</ES>
+    <EN>desc office en</EN>
+  </Literal>
+  <Literal Id="qlikview">
+    <ES>desc qlikview</ES>
+    <EN>desc qlikview en</EN>
+  </Literal>
+  <Literal Id="html">
+    <ES>desc html</ES>
+    <EN>desc html en</EN>
+  </Literal>
+  <Literal Id="css">
+    <ES>desc css</ES>
+    <EN>desc css en</EN>
+  </Literal>
+  <Literal Id="javascript">
+    <ES>desc javascript</ES>
+    <EN>desc javascript en</EN>
+  </Literal>
+  <Literal Id="cobol">
+    <ES>desc cobol</ES>
+    <EN>desc cobol en</EN>
+  </Literal>
+  <Literal Id=".net">
+    <ES>desc .net</ES>
+    <EN>desc .net en</EN>
+  </Literal>
 </Literales>
