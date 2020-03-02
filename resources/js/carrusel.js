@@ -75,7 +75,9 @@ function showSlides(n) {
         n = 1;
     }
 
-    t = setTimeout(function () { currentSlide(n + 1);}, 3000);
+    if (!detenido) {
+        t = setTimeout(function () { currentSlide(n + 1); }, 3000);
+    }
 }
 
 var detenido = false;

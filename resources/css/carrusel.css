@@ -100,10 +100,11 @@
 	right: 206px;
 }
 
-.prev:hover,
-.next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-}
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        cursor: pointer;
+    }
 
 .indicadores_puntos {
 	text-align: center;
@@ -123,6 +124,7 @@
 .activo,
 .punto:hover {
 	background-color: #717171;
+    cursor: pointer;
 }
 
 .notfocus {
