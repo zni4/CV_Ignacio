@@ -3,7 +3,7 @@
 	flex-direction: column;
 	text-align: center;
 	font-size: 2em;
-	height: 500px;
+	height: 550px;
 	background: linear-gradient(
 		to bottom,
 		var(--seccion-contacto-bg-color) 0%,
@@ -16,9 +16,9 @@
 	height: 5vw;
 	width: 100%;
 	background-color: var(--seccion-conocimientos-bg-color);
-	clip-path: circle(5vw at 50% -30%);
+	clip-path: circle(6vw at 50% -30%);
 	margin-bottom: -5vw;
-	transform: translateY(-70%);
+	transform: translateY(-75%);
 	border: 1px solid var(--seccion-conocimientos-bg-color);
 }
 
@@ -36,8 +36,9 @@
 .tarjeta_conocimiento {
 	background-color: white;
 	border-radius: 10px;
-	width: 225px;
-	font-size: medium;
+	width: 350px;
+    height: 300px;
+	font-size: small;
 	box-shadow: 10px 10px 10px black;
 	display: none;
 	order: 2;
@@ -93,11 +94,11 @@
 }
 
 .prev {
-	left: 206px;
+	left: 200px;
 }
 
 .next {
-	right: 206px;
+	right: 200px;
 }
 
     .prev:hover,
@@ -134,7 +135,7 @@
 
 .anterior,
 .siguiente {
-	transform: scale(0.9);
+	transform: scale(0.85);
 }
 
 .anterior {
@@ -146,7 +147,11 @@
 }
 
 .numero_conocimiento {
+    position: absolute;
 	font-size: x-small;
+    font-weight: bold;
+    bottom: 5px;
+    left: 50%;
 }
 
 .boton {
@@ -155,9 +160,9 @@
     border-radius: 5px;
     background-color: #bbb;
     padding: 10px;
-    width: 80px;
+    width: 100px;
     align-self: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
     .boton:hover {

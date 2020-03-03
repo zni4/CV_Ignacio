@@ -88,12 +88,12 @@ function detener() {
 
     if (!detenido) {
         detenido = true;
-        document.getElementById("detener").innerHTML = TraducirClave("reanudar");
+        document.getElementById("detener").innerHTML = TraducirClave("reanudar") + " &#9658";
         clearTimeout(t);
     }
     else {
         detenido = false;
-        document.getElementById("detener").innerHTML = TraducirClave("detener");
+        document.getElementById("detener").innerHTML = TraducirClave("detener") + " &#9632";
         t = setTimeout(function () { currentSlide(fichaParada); }, 3000);
     }
 }

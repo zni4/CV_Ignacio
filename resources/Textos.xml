@@ -340,36 +340,56 @@
     <EN>Project Management</EN>
   </Literal>
   <Literal Id="textogestion">
-    <ES>desc gestion</ES>
-    <EN>desc gestion en</EN>
+    <ES>
+      Seguimiento de proyectos asegurando los plazos y costes de ejecución.
+      '@newline''@newline'Gestión de equipos de desarrolladores.
+    </ES>
+    <EN>
+      Project monitoring ensuring deadlines and execution costs.
+      '@newline''@newline'Developer's team management.
+    </EN>
   </Literal>
   <Literal Id="sql">
-    <ES>desc sql</ES>
-    <EN>desc sql en</EN>
+    <ES>Conocimientos del lenguaje SQL, he trabajado con bases de datos DB2 y SQLServer.</ES>
+    <EN>Knowledge of the SQL language, I have worked with DB2 and SQLServer databases.</EN>
   </Literal>
   <Literal Id="visualbasic">
-    <ES>desc vb</ES>
-    <EN>desc vb en</EN>
+    <ES>
+      Desarrollo de diversas aplicaciones empleando .net y visual basic.
+      '@newline''@newline''@bold'Vias'bold@'
+      '@newline'Sistema para la gestión de un almacén.
+      '@newline'Sistema para el control de proyectos de I+D+i.
+      '@newline'Sistema para el control y gestión de los cursos de formación.
+      '@newline'Sistema para la planificación de la ocupación de las máquinas.
+    </ES>
+    <EN>
+      Development of various applications using .net and visual basic.
+      '@newline''@bold'Vias'bold@'
+      '@newline'System for managing a warehouse.
+      '@newline'System for the control of R+D projects.
+      '@newline'System for the control and managing of training courses.
+      '@newline'System for planning the occupation of the machines.
+    </EN>
   </Literal>
   <Literal Id="office">
     <ES>
       '@bold'Excel'bold@'
       '@newline'Nivel avanzado, generación de macros y funciones.
-      '@newline''@bold'Word'bold@'
-      '@newline'Nivel avanzado-
-      '@newline''@bold'Access'bold@'
+      '@newline''@newline''@bold'Word'bold@'
+      '@newline'Nivel avanzado.
+      '@newline''@newline''@bold'Access'bold@'
       '@newline'Nivel avanzado, generación de aplicaciones.
-      '@newline''@bold'Powerpoint'bold@'
+      '@newline''@newline''@bold'Powerpoint'bold@'
       '@newline'Nivel avanzado.
     </ES>
     <EN>
       '@bold'Excel'bold@'
       '@newline'Advanced level, creation of macros and functions.
-      '@newline''@bold'Word'bold@'
+      '@newline''@newline''@bold'Word'bold@'
       '@newline'Advanced level.
-      '@newline''@bold'Access'bold@'
+      '@newline''@newline''@bold'Access'bold@'
       '@newline'Advanced level, creation of applications.
-      '@newline''@bold'Powerpoint'bold@'
+      '@newline''@newline''@bold'Powerpoint'bold@'
       '@newline'Advanced level.
     </EN>
   </Literal>
@@ -385,25 +405,25 @@
       '@newline'Dashboard development course.
     </EN>
   </Literal>
-  <Literal Id="html">
-    <ES>desc html</ES>
-    <EN>desc html en</EN>
-  </Literal>
-  <Literal Id="css">
-    <ES>desc css</ES>
-    <EN>desc css en</EN>
-  </Literal>
-  <Literal Id="javascript">
-    <ES>desc javascript</ES>
-    <EN>desc javascript en</EN>
+  <Literal Id="htmlcssjs">
+    <ES>
+      Desarrollo de aplicaciones web empleando html, css y javascript para el frontend y visual basic para el backend.
+    </ES>
+    <EN>
+      Web application development using html, css and javascript for the frontend and visual basic for the backend.
+    </EN>
   </Literal>
   <Literal Id="cobol">
-    <ES>desc cobol</ES>
-    <EN>desc cobol en</EN>
-  </Literal>
-  <Literal Id=".net">
-    <ES>desc .net</ES>
-    <EN>desc .net en</EN>
+    <ES>
+      Durante mi carrera profesional he participado en el desarrollo de 2 aplicaciones cobol.
+      '@newline''@newline'El sistema de facturación de Endesa.
+      '@newline''@newline'El sistema de facturación de Telefónica.
+    </ES>
+    <EN>
+      During my professional career I participated in the development of 2 cobol applications.
+      '@newline''@newline'Endesa's billing system.
+      '@newline''@newline'Telefónica's billing system.
+    </EN>
   </Literal>
   <Literal Id="detener">
     <ES>Detener</ES>
