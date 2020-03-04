@@ -334,27 +334,10 @@ svg:hover {
 	fill-opacity: 0.9;
 }
 
-.logo_accenture:hover,
-.logo_travelsoft:hover,
-.logo_amdocs:hover,
-.logo_geoban:hover,
-.logo_vias:hover,
-.logo_dragados:hover {
-	opacity: 0.5;
-}
-
 .accenture {
 	position: relative;
 	top: 0px;
 	left: -200px;
-}
-
-.logo_accenture {
-	position: relative;
-	top: -170px;
-	left: -480px;
-	width: 119px;
-	height: 30px;
 }
 
 .travelsoft {
@@ -363,26 +346,10 @@ svg:hover {
 	left: -185px;
 }
 
-.logo_travelsoft {
-	position: relative;
-	top: -165px;
-	left: -460px;
-	width: 119px;
-	height: 30px;
-}
-
 .amdocs {
 	position: relative;
 	top: 0px;
 	left: -190px;
-}
-
-.logo_amdocs {
-	position: relative;
-	top: -165px;
-	left: -465px;
-	width: 119px;
-	height: 30px;
 }
 
 .geoban {
@@ -391,27 +358,10 @@ svg:hover {
 	left: -195px;
 }
 
-.logo_geoban {
-	position: relative;
-	top: -165px;
-	left: -480px;
-	width: 119px;
-	height: 31px;
-}
-
 .vias {
 	position: relative;
 	top: 0px;
 	left: -210px;
-}
-
-.logo_vias {
-	position: relative;
-	top: -150px;
-	left: -475px;
-	width: 91px;
-	height: 46px;
-	border-radius: 5px;
 }
 
 .dragados {
@@ -420,40 +370,7 @@ svg:hover {
 	left: -195px;
 }
 
-.logo_dragados {
-	position: relative;
-	top: -175px;
-	left: -460px;
-	width: 91px;
-	height: 46px;
-	border-radius: 5px;
-}
-
 .hoja_cuaderno:hover {
-	cursor: pointer;
-}
-
-.logo_accenture:hover {
-	cursor: pointer;
-}
-
-.logo_travelsoft:hover {
-	cursor: pointer;
-}
-
-.logo_amdocs:hover {
-	cursor: pointer;
-}
-
-.logo_geoban:hover {
-	cursor: pointer;
-}
-
-.logo_vias:hover {
-	cursor: pointer;
-}
-
-.logo_dragados:hover {
 	cursor: pointer;
 }
 

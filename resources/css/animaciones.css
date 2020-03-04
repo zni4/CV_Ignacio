@@ -328,24 +328,6 @@
 	}
 }
 
-.animate_logo_accenture {
-	animation: animacion_logo_accenture ease-out 0.1s forwards;
-	animation-delay: 1.5s;
-}
-
-@keyframes animacion_logo_accenture {
-	0% {
-		top: -170px;
-		left: -480px;
-	}
-
-	100% {
-		top: -185px;
-		left: -460px;
-		transform: rotateZ(20deg);
-	}
-}
-
 .animate_travelsoft {
 	animation: animacion_travelsoft ease-out 0.1s forwards;
 	animation-delay: 1.4s;
@@ -360,24 +342,6 @@
 	100% {
 		top: 130px;
 		left: -140px;
-		transform: rotateZ(15deg);
-	}
-}
-
-.animate_logo_travelsoft {
-	animation: animacion_logo_travelsoft ease-out 0.1s forwards;
-	animation-delay: 1.4s;
-}
-
-@keyframes animacion_logo_travelsoft {
-	0% {
-		top: -165px;
-		left: -395px;
-	}
-
-	100% {
-		top: -50px;
-		left: -405px;
 		transform: rotateZ(15deg);
 	}
 }
@@ -400,24 +364,6 @@
 	}
 }
 
-.animate_logo_amdocs {
-	animation: animacion_logo_amdocs ease-out 0.1s forwards;
-	animation-delay: 1.3s;
-}
-
-@keyframes animacion_logo_amdocs {
-	0% {
-		top: -165px;
-		left: -465px;
-	}
-
-	100% {
-		top: -155px;
-		left: -320px;
-		transform: rotateZ(-3deg);
-	}
-}
-
 .animate_geoban {
 	animation: animacion_geoban ease-out 0.1s forwards;
 	animation-delay: 1.2s;
@@ -432,24 +378,6 @@
 	100% {
 		top: 50px;
 		left: 80px;
-		transform: rotateZ(10deg);
-	}
-}
-
-.animate_logo_geoban {
-	animation: animacion_logo_geoban ease-out 0.1s forwards;
-	animation-delay: 1.2s;
-}
-
-@keyframes animacion_logo_geoban {
-	0% {
-		top: -165px;
-		left: -480px;
-	}
-
-	100% {
-		top: -120px;
-		left: -190px;
 		transform: rotateZ(10deg);
 	}
 }
@@ -472,24 +400,6 @@
 	}
 }
 
-.animate_logo_vias {
-	animation: animacion_logo_vias ease-out 0.1s forwards;
-	animation-delay: 1.1s;
-}
-
-@keyframes animacion_logo_vias {
-	0% {
-		top: -150px;
-		left: -475px;
-	}
-
-	100% {
-		top: -160px;
-		left: -40px;
-		transform: rotateZ(-45deg);
-	}
-}
-
 .animate_dragados {
 	animation: animacion_dragados ease-out 0.1s forwards;
 	animation-delay: 1s;
@@ -504,24 +414,6 @@
 	100% {
 		top: 50px;
 		left: 370px;
-		transform: rotateZ(20deg);
-	}
-}
-
-.animate_logo_dragados {
-	animation: animacion_logo_dragados ease-out 0.1s forwards;
-	animation-delay: 1s;
-}
-
-@keyframes animacion_logo_dragados {
-	0% {
-		top: -175px;
-		left: -460px;
-	}
-
-	100% {
-		top: -120px;
-		left: 115px;
 		transform: rotateZ(20deg);
 	}
 }
